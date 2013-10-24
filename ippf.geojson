@@ -1830,7 +1830,7 @@
         "type": "global"
       },
       "geometry": {
-        "type": "Poddddint",
+        "type": "Point",
         "coordinates": [
           -73.9865812,
           40.7305991
@@ -1843,7 +1843,7 @@
         "ID": "109",
         "country": "\n\nLONDON, UK",
         "title": "Rallying civil society to ensure sexual and reproductive health is on the global agenda",
-        "description": "In July 2012, IPPF convened 1300 civil society organizations for the ground-breaking London Summit on Family Planning.\nThe summit was co-hoste by the UK government and the Bill & Melinda Gates Foundation, in partnership with UNFPA and national governments.<br /> It mobilized global commitment to make affordable, lifesaving contraceptive services and information available to an additional 120 million women and girls in the world’s poorest countries by 2020.<br /> IPPF made an unprecedented commitment to treble the number of sexual and reproductive health services provided by 2020, through a comprehensive package of rights-basedices including a range of contraceptive methods and safe abortion.\nWe also made a commitment to scale up our advocacy by establishing civil society networks in the poorest countries to hold governments accountable for providing services for women and girls, committing financial resources, and ensuring a range of contraceptives are included on the National Essential Medicines List.\n\nAfter the conference IPPF’s Director-General was invited to participate in the Reference Group for Family Planning 2020. The group will track resources and results, ensuring that the US$2.6 billion committed at the summit is implemented according to interndationally agre\ed standards and respod nds to the needs of national priorities.\n\n",
+        "description": "In July 2012, IPPF convened 1300 civil society organizations for the ground-breaking London Summit on Family Planning.\n\nThe Summit  mobilized global commitment to make affordable, lifesaving contraceptive services and information available to an additional 120 million women and girls in the world’s poorest countries by 2020.<br /> IPPF made an unprecedented commitment to treble the number of sexual and reproductive health services provided by 2020, through a comprehensive package of rights-basedices including a range of contraceptive methods and safe abortion.\nWe also made a commitment to scale up our advocacy by establishing civil society networks in the poorest countries to hold governments accountable for providing services for women and girls, committing financial resources, and ensuring a range of contraceptives are included on the National Essential Medicines List.\n\nAfter the conference IPPF’s Director-General was invited to participate in the Reference Group for Family Planning 2020. The group will track resources and results, ensuring that the US$2.6 billion committed at the summit is implemented according to interndationally agre\ed standards and respod nds to the needs of national priorities.\n\n",
         "type": "global"
       },
       "geometry": {
