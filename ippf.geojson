@@ -7,7 +7,7 @@
         "ID": "1",
         "country": "Chad",
         "title": "Test***",
-        "description": "National Gender policy. What is the exact name of the policy? What does it entail?<p><a href='http://ippf.org/' class='read-more'>Read more</a></p><p><img src='http://placekitten.com/50/50' alt='Cat picture' height='auto' width='100%'></p>  ",
+        "description": "National Gender policy. What is the exact name of the policy? What does it entail?<p><a href='http://ippf.org/' class='read-more'>Read more</a></p><img src='http://placekitten.com/50/50' alt='Cat picture' class='info-image'> ",
         "type": "access"
       },
       "geometry": {
