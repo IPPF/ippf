@@ -1830,7 +1830,7 @@
         "type": "global"
       },
       "geometry": {
-        "type": "Podint",
+        "type": "Poddint",
         "coordinates": [
           -73.9865812,
           40.7305991
