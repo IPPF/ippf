@@ -1,0 +1,13 @@
+$git clone --bare https://github.com/robertocarroll/ippf-5.git
+# Make a bare clone of the repository
+
+cd ippf-5.git
+git push --mirror https://github.com/exampleuser/new-repository.git
+# Mirror-push to the new repository
+
+cd ..
+rm -rf ippf-5.git
+# Remove our temporary local repository
+
+$git fetch -p origin
+git push --mirror
