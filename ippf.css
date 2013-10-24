@@ -73,9 +73,7 @@ a.read-more:hover {
 }
 
 .info-image {
-  max-width: 100%; /* Add !important if needed. */
-  height: auto;    /* Add !important if needed. */
-  width: auto;
+  width: 250px;
 }
 
 #mapui {
