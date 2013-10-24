@@ -25,7 +25,7 @@
         "country": "Ghana ",
         "title": "Contraceptives included in national insurance scheme",
         "description": " The Member Association (MA) has successfully led civil society organisation engagement with government stakeholders since 2007 to include some contraceptive methods in the National Insurance Scheme. Before, only family planning (FP) counselling services were offered. ",
-        "type": "access"
+        "type": "access" 
       },
       "geometry": {
         "type": "Point",
@@ -1830,7 +1830,7 @@
         "type": "global"
       },
       "geometry": {
-        "type": "Podddint",
+        "type": "Poddddint",
         "coordinates": [
           -73.9865812,
           40.7305991
