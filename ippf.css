@@ -73,9 +73,9 @@ a.read-more:hover {
 }
 
 .info-image {
-  width: inherit;  /* Make images fill their parent's space. Solves IE8. */
   max-width: 100%; /* Add !important if needed. */
   height: auto;    /* Add !important if needed. */
+  width: auto;
 }
 
 #mapui {
