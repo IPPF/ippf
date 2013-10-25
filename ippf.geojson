@@ -7,7 +7,7 @@
         "ID": "1",
         "country": "Chad",
         "title": "Test***",
-        "description": "National Gender policy. What is the exact name of the policy? What does it entail?<p><a href='http://ippf.org/' class='read-more'>Read more</a></p><img src='http://placekitten.com/50/50' alt='Cat picture' class='info-image'> ",
+        "description": "National Gender policy. What is the exact name of the policy? What does it entail?<p><a href='http://ippf.org/' class='read-more'>Read more</a></p><img src='http://placekitten.com/50/50' alt='Cat picture' class='info-image'><img src='http://ippf.org/static/PPAG-BILLBOARD.jpg'> ",
         "type": "access"
       },
       "geometry": {
@@ -24,7 +24,7 @@
         "ID": "2",
         "country": "Ghana ",
         "title": "Contraceptives included in national insurance scheme",
-        "description": " The Planned Parenthood Association of Ghana (PPAG) successfully led civil society organisation engagement with government stakeholders since 2007 to include some contraceptive methods in the National Insurance Scheme. Before, only family planning counselling services were offered. <img src='http://ippf.org/static/PPAG-BILLBOARD.jpg'>  ",
+        "description": " The Planned Parenthood Association of Ghana (PPAG) successfully led civil society organisation engagement with government stakeholders since 2007 to include some contraceptive methods in the National Insurance Scheme. Before, only family planning counselling services were offered. <img src='http://placekitten.com/50/50' alt='Cat picture' class='info-image'><img src='http://ippf.org/static/PPAG-BILLBOARD.jpg'>  ",
         "type": "access"
       },
       "geometry": {
