@@ -2024,5 +2024,23 @@
         ]
       }
     }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "120",
+        "country": "INDONESIA",
+        "title": "**This is a new point",
+        "description": "The Indonesian MA contributed SRHR language to the ASEAN Human Rights Declaration, which was adopted in November 2012.\n\nIPPA had been actively involved in the networking of CSO’s in Indonesia which aim to give inputs to the declaration.\nIPPA roles : being a contributor in the legal draft process (made by Indonesian CSO led by HRWG ) and IPPA also submitted its own Draft and sent letter to Indonesia Foreign Minister and to AICHR representative, Acted as part of the Media Committee in the ASEAN People’s Forum 2012 in Cambodia, actively involved in networking meeting before the declaration was published ( Women Caucus, Indonesia CSO, etc)",
+        "type": "global"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.5632032,
+          -4.7993356
+        ]
+      }
+    }
   ]
 }
