@@ -2027,11 +2027,11 @@
     {
       "type": "Feature",
       "properties": {
-        "ID": "117",
+        "ID": "120",
         "country": "TEST",
         "title": "TEST",
         "description": "IPPF/WHR test ",
-        "type": "global"
+        "type": "knowledge"
       },
       "geometry": {
         "type": "Point",
