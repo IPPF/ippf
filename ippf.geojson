@@ -6,8 +6,8 @@
       "properties": {
         "ID": "1",
         "country": "Chad",
-        "title": "Gender policy",
-        "description": "National Gender policy. What is the exact name of the policy? What does it entail?<p><a href='http://ippf.org/' class='read-more'>Read more</a></p><img src='http://placekitten.com/50/50' alt='Cat picture' class='info-image'> ",
+        "title": "Test***",
+        "description": "Access - National Gender policy. What is the exact name of the policy? What does it entail?<p><a href='http://ippf.org/' class='read-more'>Read more</a></p> ",
         "type": "access"
       },
       "geometry": {
@@ -24,7 +24,7 @@
         "ID": "2",
         "country": "Ghana ",
         "title": "Contraceptives included in national insurance scheme",
-        "description": " <p>The Planned Parenthood Association of Ghana (PPAG) successfully led civil society organisation engagement with government stakeholders since 2007 to include some contraceptive methods in the National Insurance Scheme. Before, only family planning counselling services were offered. </p><img src='http://ippf.org/static/PPAG-BILLBOARD.jpg' class='info-image'> ",
+        "description": " The Member Association (MA) has successfully led civil society organisation engagement with government stakeholders since 2007 to include some contraceptive methods in the National Insurance Scheme. Before, only family planning (FP) counselling services were offered. Which methods? ",
         "type": "access"
       },
       "geometry": {
@@ -41,7 +41,7 @@
         "ID": "3",
         "country": "Côte d'Ivoire",
         "title": "Abortion in the national agenda",
-        "description": "<p>Abortion issues added to the national Strategic Plan on Family Planning from 2012-2016 for the first time.</p><img src='http://ippf.org/static/cote.jpg'>",
+        "description": "Abortion issues added to the national Strategic Plan on Family Planning from 2012-2016 for the first time.",
         "type": "abortion"
       },
       "geometry": {
@@ -58,7 +58,7 @@
         "ID": "4",
         "country": "Liberia ",
         "title": "Providing nationwide  adolescent reproductive health services",
-        "description": "The Family Planning Association of Liberia (FPAL) successfully advocated for a national strategy on adolescent sexual and reproductive health service provision, which was then developed and validated. <img src='http://ippf.org/static/liberia.jpg'>",
+        "description": "The Member Association successfully advocated for a national strategy on adolescent sexual and reproductive health service provision, which was then developed and validated. ",
         "type": "education"
       },
       "geometry": {
@@ -75,7 +75,7 @@
         "ID": "5",
         "country": "Mauritius ",
         "title": "Abortion laws liberalised",
-        "description": "<p>The Mauritius Family Planning and Welfare Association (MFPWA) spent years working with other organisations and government officials to liberalise the country's abortion laws. </p><p>People can now seek or provide an abortion under 4 circumstances without facing a minimum of 10 years' imprisonment, as was previously the case: if the pregnant woman's life is in danger; if the woman's health is at risk of 'grave injury'; if the foetus is at risk of severe malformation; or if the pregnancy is a result of rape or sex with a minor).</p> ",
+        "description": "Abortion - The Member Association (MA), Mauritius Family Planning and Welfare Association (MFPWA) spent years working with other organisations and government officials to liberalise the country's abortion laws. People can now seek or provide an abortion under four circumstances (if the pregnant woman's life is in danger; if the woman's health is at risk of 'grave injury'; if the foetus is at risk of severe malformation; or if the pregnancy is a result of rape or sex with a minor) without facing a minimum of 10 years' imprisonment, as was previously the case. What is the name of the law? ",
         "type": "abortion"
       },
       "geometry": {
@@ -109,14 +109,14 @@
         "ID": "7",
         "country": "Uganda ",
         "title": "Removing taxes on contraceptives",
-        "description": "Reproductive Health Uganda (RHU) successfully advocated to the Ministry of Finance, the Ministry of Health, key MPs  and the Uganda Revenue Authority to remove the 18 % Value Added Tax and 6 % withholding tax being levied on reproductive health commodities, such as contraceptives and Mama Kits.",
+        "description": "The Member Association successfully advocated to the Ministry of Finance, the Ministry of Health, key MPs  and the Uganda Revenue Authority to remove the 18 % Value Added Tax and 6 % withholding tax being levied on reproductive health commodities, such as Contraceptives and Mama Kits.",
         "type": "srhbudget"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.285267,
-          1.369363
+          32.2166578,
+          1.5333554
         ]
       }
     },
@@ -126,7 +126,7 @@
         "ID": "8",
         "country": "Uganda",
         "title": "Comprehensive Sexuality Education is part of the national curriculum ",
-        "description": "Reproductive Health Uganda (RHU) successfully advocated for the government to introduce Comprehensive Sexuality Education in the national curriculum. Previously the sexuality education was limited to abstinence and general sexual and reproductive health. The Member Association gave input into the content of the curriculum and reviewed it before it was finalised.",
+        "description": "The Member Association successfully advocated for the government to introduce Comprehensive Sexuality Education in the national curriculum. Previously the sexuality education was limited to abstinence and general sexual and reproductive health. The Member Association gave input into the content of the curriculum and reviewed it before it was finalised.",
         "type": "education"
       },
       "geometry": {
@@ -1843,7 +1843,7 @@
         "ID": "109",
         "country": "\n\nLONDON, UK",
         "title": "Rallying civil society to ensure sexual and reproductive health is on the global agenda",
-        "description": "In 2012, IPPF convened civil society for the ground-breaking <a href='http://ippf.org/family-planning-london'>London Summit on Family Planning</a>. Globally, US$2.6 billion was committed to make affordable, lifesaving contraceptive services available to an additional 120 million women and girls in the world’s poorest countries by 2020.\nIPPF made an unprecedented commitment to treble the number of sexual and reproductive health services provided by 2020.<div class='embed-container'><iframe src='http://www.youtube.com/embed/TRzezbXyjvI' frameborder='0' allowfullscreen></iframe></div>",
+        "description": "In July 2012, IPPF participated in the ground-breaking London Summit on Family Planning, which mobilized global commitment to make affordable, lifesaving contraceptive services and information available to an additional 120 million women and girls in the world’s poorest countries by 2020.\nThe summit was co-hosted by the UK government and the Bill & Melinda Gates Foundation, in partnership with UNFPA and national governments. IPPF made an unprecedented commitment to treble the number of sexual and reproductive health services provided by 2020, through a comprehensive package of rights-based services including a range of contraceptive methods and safe abortion.\nWe also made a commitment to scale up our advocacy by establishing civil society networks in the poorest countries to hold governments accountable for providing services for women and girls, committing financial resources, and ensuring a range of contraceptives are included on the National Essential Medicines List.\n\nIPPF garnered the support of 1300 civil society organizations who signed up to IPPF's declaration. This was then sent to the UK Prime Minister and Melinda Gates, and was published in the Financial Times.\n\nAfter the conference IPPF’s Director-General was invited to participate in the Reference Group for Family Planning 2020. This group was a key outcome of the summit and will be responsible for providing strategic direction and coordination between partners to improve women’s and girls’ access to contraception. The group will track resources and results, ensuring that the US$2.6 billion committed at the summit is implemented according to internationally agreed standards and responds to the needs of national priorities.\n\n",
         "type": "global"
       },
       "geometry": {
@@ -2013,7 +2013,7 @@
         "ID": "119",
         "country": "INDONESIA",
         "title": "SRHR language in ASEAN Human rights declaration ",
-        "description": "The Indonesian MA contributed SRHR language to the ASEAN Human Rights Declaration, which was adopted in November 2012.\n\nIPPA had been actively involved in the networking of CSO’s in Indonesia which aim to give inputs to the declaration.\nIPPA roles : being a contributor in the legal draft process (made by Indonesian CSO led by HRWG ) and IPPA also submitted its own Draft and sent letter to Indonesia Foreign Minister and to AICHR representa20ve, Acted as part of the Media Committee in the ASEAN People’s Forum 2012 in Cambodia, actively involved in networking meeting before the declaration was published (Women Caucus, Indonesia CSO, etc)",
+        "description": "The Indonesian MA contributed SRHR language to the ASEAN Human Rights Declaration, which was adopted in November 2012.\n\nIPPA had been actively involved in the networking of CSO’s in Indonesia which aim to give inputs to the declaration.\nIPPA roles : being a contributor in the legal draft process (made by Indonesian CSO led by HRWG ) and IPPA also submitted its own Draft and sent letter to Indonesia Foreign Minister and to AICHR representative, Acted as part of the Media Committee in the ASEAN People’s Forum 2012 in Cambodia, actively involved in networking meeting before the declaration was published ( Women Caucus, Indonesia CSO, etc)",
         "type": "global"
       },
       "geometry": {
@@ -2024,27 +2024,10 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "ID": "120",
-        "country": "INDONESIA",
-        "title": "SRHR language in ASEAN Human rights declaration ",
-        "description": "The Indonesian MA contributed SRHR language to the ASEAN Human Rights Declaration, which was adopted in November 2012.\n\nIPPA had been actively involved in the networking of CSO’s in Indonesia which aim to give inputs to the declaration.\nIPPA roles : being a contributor in the legal draft process (made by Indonesian CSO led by HRWG ) and IPPA also submitted its own Draft and sent letter to Indonesia Foreign Minister and to AICHR representa20ve, Acted as part of the Media Committee in the ASEAN People’s Forum 2012 in Cambodia, actively involved in networking meeting before the declaration was published (Women Caucus, Indonesia CSO, etc)",
-        "type": "knowledge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.5632032,
-          -4.7993356
-        ]
-      }
-    },
-    {
+  {
       "type": "Feature",
       "propertie:{
-        "ID": "121",
+        "ID": "120",
         "country": "INDONESIA",
         "title": "South-to-south learning",
         "description": "The Indonesian MA contributed SRHR language to the ASEAN Human Rights Declaration, which was adopted in November 2012.\n\nIPPA had been actively involved in the networking of CSO’s in Indonesia which aim to give inputs to the declaration.\nIPPA roles : being a contributor in the legal draft process (made by Indonesian CSO led by HRWG ) and IPPA also submitted its own Draft and sent letter to Indonesia Foreign Minister and to AICHR representative, Acted as part of the Media Committee in the ASEAN People’s Forum 2012 in Cambodia, actively involved in networking meeting before the declaration was published ( Women Caucus, Indonesia CSO, etc)",
