@@ -2027,17 +2027,17 @@
     {
       "type": "Feature",
       "properties": {
-        "ID": "119",
-        "country": "TEST indonesia ",
-        "title": "TEST recognize contraceptives",
-        "description": "TEST Inclusion of contraceptives AWLN held advocacy meeting with WHO and lobbied -WHO  and the change was finally made. ",
+        "ID": "120",
+        "country": "Colombia & Bolivia",
+        "title": "Infertility prevention, detection and treatment provided by Colombia for Bolivia ",
+        "description": "South-to-south",
         "type": "knowledge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-           114.5632032,
-          -4.7993356
+          -73.333740,
+          3.272146
         ]
       }
     },
