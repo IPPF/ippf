@@ -2014,13 +2014,13 @@
         "country": "TEST indonesia ",
         "title": "TEST recognize contraceptives",
         "description": "TEST Inclusion of contraceptives AWLN held advocacy meeting with WHO and lobbied WHO  and the change was finally made. ",
-        "type": "global"
+        "type": "knowledge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9865812,
-          40.7305991
+           114.5632032,
+          -4.7993356
         ]
       }
     },
