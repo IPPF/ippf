@@ -2046,15 +2046,15 @@
       "properties": {
         "ID": "120",
         "country": "Colombia & Bolivia",
-        "title": "Infertility prevention, detection and treatment ",
+        "title": "Infertility prevention, detection and treatment provided by Colombia for Bolivia ",
         "description": "South-to-south",
         "type": "knowledge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.5632032,
-          -4.7993356
+          -73.333740,
+          3.272146
         ]
       }
     }
