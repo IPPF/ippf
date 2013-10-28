@@ -753,7 +753,7 @@
       "type": "Feature",
       "properties": {
         "ID": "45",
-        "country": "Israel",
+        "country": "Republic of Macedonia",
         "title": "HIV treatment budget increased",
         "description": "HIV - The budgetary allocation for anti-retroviral treatment (ART) has been increased.",
         "type": "hiv"
@@ -761,8 +761,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.0015196,
-          30.8760272
+          21.7168387,
+          41.6171214
         ]
       }
     },
