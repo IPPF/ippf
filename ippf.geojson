@@ -2023,6 +2023,23 @@
           -4.7993356
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "120",
+        "country": "TEST",
+        "title": "Human rights declaration ",
+        "description": "The Indonesian MA contributed SRHR language",
+        "type": "knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.5632032,
+          -4.7993356
+        ]
+      }
     }
   ]
 }
