@@ -1231,7 +1231,7 @@
         "ID": "74",
         "country": "Dominican Republic",
         "title": "Sexual and reproductive health a national issue ",
-        "description": " Access - A national development strategy which includes Sexual and Reproductive Health (SRH) was approved as law. What is the name of the law?",
+        "description": " A national development strategy which includes Sexual and Reproductive Health (SRH) was approved as law.,
         "type": "access"
       },
       "geometry": {
@@ -1248,7 +1248,7 @@
         "ID": "75",
         "country": "Haiti ",
         "title": "New family planning strategy",
-        "description": "Access - The Member Association (MA) advocated for the development of a national strategy for Family Planning (FP) in Haiti. This includes the establishment of FP access points in the public health sector.",
+        "description": "The Member Association advocated for the development of a national strategy for Family Planning in Haiti. This includes the establishment of FP access points in the public health sector.",
         "type": "access"
       },
       "geometry": {
@@ -1265,7 +1265,7 @@
         "ID": "76",
         "country": "Haiti",
         "title": "National standards for cervical screening ",
-        "description": " Access - The MA was instrumental in developing national standards for cervical screening. As a result, screening services are now provided in both county hospitals and community hospitals.",
+        "description": " The Member Association was instrumental in developing national standards for cervical screening. As a result, screening services are now provided in both county hospitals and community hospitals.",
         "type": "cervicalcancer"
       },
       "geometry": {
@@ -1282,7 +1282,7 @@
         "ID": "77",
         "country": "Haiti",
         "title": "Better family planning services",
-        "description": " Access - The Member Association (MA) played an instrumental role in drafting a new family planning law which was approved to govern the provision of family planning services in Haiti. Previously, there was no law in Haiti to address the provision of contraception services.  What is the name of the law? ",
+        "description": " The Member Association played an instrumental role in drafting a new family planning law which was approved to govern the provision of family planning services in Haiti. Previously, there was no law in Haiti to address the provision of contraception services. ",
         "type": "access"
       },
       "geometry": {
@@ -1299,7 +1299,7 @@
         "ID": "78",
         "country": "Honduras",
         "title": "Violence against children and young people a national issue",
-        "description": "(1) Adolescents - The Member Association (MA) was instrumental in advocating a national government policy on the prevention of violence against young people and children. ",
+        "description": "The Member Association was instrumental in advocating a national government policy on the prevention of violence against young people and children. ",
         "type": "violence"
       },
       "geometry": {
@@ -1333,7 +1333,7 @@
         "ID": "80",
         "country": "Honduras",
         "title": "Comprehensive sexuality education in national curriculum",
-        "description": "(3) Adolescents - The Ministry of Education (MoE) declared that comprehensive sexuality education (CSE) is compulsory, clarifying that this is within the framework of international commitments. ",
+        "description": "The Ministry of Education (MoE) declared that comprehensive sexuality education (CSE) is compulsory, clarifying that this is within the framework of international commitments. ",
         "type": "education"
       },
       "geometry": {
@@ -1401,7 +1401,7 @@
         "ID": "84",
         "country": "Mexico",
         "title": "Improved access to contraceptives ",
-        "description": "(2) Access - A provision has been made in the budget for contraceptives in the state-sponsored health insurance scheme, Segura Popular for the poor and vulnerable who cannot afford to buy it or whose employers don't provide it. ",
+        "description": "A provision has been made in the budget for contraceptives in the state-sponsored health insurance scheme, Segura Popular for the poor and vulnerable who cannot afford to buy it or whose employers don't provide it. ",
         "type": "access"
       },
       "geometry": {
@@ -1452,7 +1452,7 @@
         "ID": "87",
         "country": "Nicaragua",
         "title": "HIV rights law introduced",
-        "description": "HIV - A law was passed to promote, protect and defend human rights related to HIV prevention and treatment. What is the name of the law? ",
+        "description": "A law was passed to promote, protect and defend human rights related to HIV prevention and treatment. What is the name of the law? ",
         "type": "hiv"
       },
       "geometry": {
