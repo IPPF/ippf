@@ -1943,7 +1943,7 @@
       "type": "Feature",
       "properties": {
         "ID": "116",
-        "country": "\nKIGALI, RWANDA",
+        "country": "Rwanda",
         "title": "Consultative Meeting with African parliamentarians on ICPD and MDG’S: Beyond 2014 and post 2015 ",
         "description": "This consultation was hosted by the Rwanda National Assembly and organised in collaboration with AWLN, ARBEF and the Rwanda Parliamentary Network on Population and Development. Objectives of the meeting: to raise awareness and promote parliamentarians’ engagement in the processes; discuss and reach a consensus on SRHR priorities areas in the continent;  constitute the initial steps towards creating a platform for cooperation and coordination for parliamentarians interested in promoting SRH in their respective countries.\n\nAs a follow up, this list of participants was forwarded to the UNFPA, for consideration when establishing the Africa Parliamentary Forum on Population and Development (APFPD). Consequently a Parliamentary Forum was successfully constituted at the regional level and 3 out of 6 elected officials of APFPD are closely linked to IPPF and have committed to contribute to promoting prioritization of SRHR issues in developments agenda at country and regional levels. ",
         "type": "global"
@@ -1951,8 +1951,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.0615075,
-          -1.9508511
+          29.399414,
+          -2.635789
         ]
       }
     },
