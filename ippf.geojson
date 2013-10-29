@@ -2013,7 +2013,7 @@
         "ID": "120",
         "country": "Colombia & Bolivia",
         "title": "Infertility prevention, detection and treatment provided by Colombia for Bolivia ",
-        "description": "<p>Profamilia in Colombia facilitated technical assistance for CIES, Bolivia. The learning programme allows for rapid transfer of theory to practice through implementation strategies appropriate to the local country context. </p><img src='http://ippf.org/static/CIES.jpg'></p> ",
+        "description": "<p>Profamilia in Colombia facilitated technical assistance for CIES, Bolivia. The learning programme allows for rapid transfer of theory to practice through implementation strategies appropriate to the local country context. </p><img src='http://ippf.org/static/CIES.jpg' width='180'></p> ",
         "type": "knowledge"
       },
       "geometry": {
@@ -2028,7 +2028,7 @@
       "type": "Feature",
       "properties": {
         "ID": "121",
-        "country": "Colombia & Bolivi a",
+        "country": "Colombia & Bolivia",
         "title": "Infertility prevention, detection and treatment provided by Colombia for Bolivia ",
         "description": "South-to-south",
         "type": "knowledge"
