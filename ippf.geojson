@@ -1824,7 +1824,7 @@
       "type": "Feature",
       "properties": {
         "ID": "109",
-        "country": "\n\nLONDON, UK",
+        "country": "United Kingdom",
         "title": "Rallying civil society to ensure sexual and reproductive health is on the global agenda",
         "description": "<p>At the London Summit on Family Planning IPPF made an unprecedented commitment to treble the number of sexual and reproductive health services provided and also mobilized 1300 civil society organizations.</p><p>IPPF’s Director-General is now on the Reference Group for Family Planning 2020. This group will ensure that the US$2.6 billion committed at the summit is implemented according to internationally agreed standards and responds to the needs of national priorities.\n\n</p><a href='http://ippf.org/family-planning-london' class='read-more'>Read more</a><div class='embed-container'><iframe src='http://www.youtube.com/embed/TRzezbXyjvI' frameborder='0' allowfullscreen></iframe></div> ",
         "type": "global"
@@ -1858,7 +1858,7 @@
       "type": "Feature",
       "properties": {
         "ID": "111",
-        "country": "\n\nRIO, BRAZIL",
+        "country": "Brazil",
         "title": "Influenced the inclusion of strong SRH language in the Rio+20 Outcome Document",
         "description": "IPPF/WHR played an instrumental role in securing strong language such as: full implementation of ICPD and Beijing Platforms for Action including sexual and reproductive health and the promotion and protection of all human rights; the provision of universal access to reproductive health including family planning and sexual health, and the reduction of maternal and child mortality ",
         "type": "global"
@@ -1892,7 +1892,7 @@
       "type": "Feature",
       "properties": {
         "ID": "113",
-        "country": "\n\nBRUXELLES, BELGIUM",
+        "country": "BELGIUM",
         "title": "European Network Regional Office (ENRO) at the heart of debates on the EU future development framework ",
         "description": "social aspects included in the 2012 EU council conclusions on the Agenda for Change ",
         "type": "global"
@@ -1909,7 +1909,7 @@
       "type": "Feature",
       "properties": {
         "ID": "114",
-        "country": "\n\nBRUXELLES, BELGIUM",
+        "country": "BELGIUM",
         "title": "Test***",
         "description": "Following from the council conclusions on the agenda for change which sets the framework for the EU budget for the next 7 years (Multi-annual Financial Framework MFF), safeguarding overall ODA levels in the next MFF in context of crisis and  guaranteeing the inclusion of the social aspects in one of the main geographical instruments for development for Asia and Latin America called DCI ",
         "type": "global"
@@ -1917,8 +1917,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3516841,
-          50.8465406
+          6.064453,
+          50.275299
         ]
       }
     },
