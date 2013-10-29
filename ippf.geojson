@@ -75,7 +75,7 @@
         "ID": "5",
         "country": "Mauritius ",
         "title": "Abortion laws liberalised",
-        "description": "Abortion - The Member Association (MA), Mauritius Family Planning and Welfare Association (MFPWA) spent years working with other organisations and government officials to liberalise the country's abortion laws. People can now seek or provide an abortion under four circumstances (if the pregnant woman's life is in danger; if the woman's health is at risk of 'grave injury'; if the foetus is at risk of severe malformation; or if the pregnancy is a result of rape or sex with a minor) without facing a minimum of 10 years' imprisonment, as was previously the case. What is the name of the law? ",
+        "description": "The Mauritius Family Planning and Welfare Association (MFPWA) spent years working with other organisations and government officials to liberalise the country's abortion laws. People can now seek or provide an abortion under four circumstances (if the pregnant woman's life is in danger; if the woman's health is at risk of 'grave injury'; if the foetus is at risk of severe malformation; or if the pregnancy is a result of rape or sex with a minor) without facing a minimum of 10 years' imprisonment, as was previously the case. ",
         "type": "abortion"
       },
       "geometry": {
@@ -109,7 +109,7 @@
         "ID": "7",
         "country": "Uganda ",
         "title": "Removing taxes on contraceptives",
-        "description": "The Member Association successfully advocated to the Ministry of Finance, the Ministry of Health, key MPs  and the Uganda Revenue Authority to remove the 18 % Value Added Tax and 6 % withholding tax being levied on reproductive health commodities, such as Contraceptives and Mama Kits.",
+        "description": "Reproductive Health Uganda successfully advocated to the Ministry of Finance, the Ministry of Health, key MPs  and the Uganda Revenue Authority to remove the 18 % Value Added Tax and 6 % withholding tax being levied on reproductive health commodities, such as contraceptives and Mama Kits.",
         "type": "srhbudget"
       },
       "geometry": {
@@ -126,7 +126,7 @@
         "ID": "8",
         "country": "Uganda",
         "title": "Comprehensive Sexuality Education is part of the national curriculum ",
-        "description": "The Member Association successfully advocated for the government to introduce Comprehensive Sexuality Education in the national curriculum. Previously the sexuality education was limited to abstinence and general sexual and reproductive health. The Member Association gave input into the content of the curriculum and reviewed it before it was finalised.",
+        "description": "Reproductive Health Uganda successfully advocated for the government to introduce Comprehensive Sexuality Education in the national curriculum. Previously the sexuality education was limited to abstinence and general sexual and reproductive health. They gave input into the content of the curriculum and reviewed it before it was finalised.",
         "type": "education"
       },
       "geometry": {
@@ -143,7 +143,7 @@
         "ID": "9",
         "country": "Uganda",
         "title": "National Youth Employment Policy integrates sexual and reproductive health education with business training.",
-        "description": "The Member Association successfully advocated for the inclusion of sexual and reproductive health rights into the National Business and Entrepreneurial Manual.  All recipients of the National Youth Fund are required under the National Youth Employment Policy to undergo Business and Entrepreneurship training. The Member Association provided the sexual and reproductive health content for the manual and conducted the final review.",
+        "description": "Reproductive Health Uganda successfully advocated for the inclusion of sexual and reproductive health rights into the National Business and Entrepreneurial Manual.  All recipients of the National Youth Fund are required under the National Youth Employment Policy to undergo Business and Entrepreneurship training. Reproductive Health Uganda provided the sexual and reproductive health content for the manual and conducted the final review.",
         "type": "education"
       },
       "geometry": {
@@ -160,7 +160,7 @@
         "ID": "10",
         "country": "Congo, Dem. Republic",
         "title": "Sexual and reproductive health a national issue",
-        "description": "The Member Association and UNFPA successfully advocated to the Ministry of Health for sexual and reproductive health to be allocated in the national budget.",
+        "description": "The Association de Bien-Etre Familial – Naissances Désirables (ABEF-ND) and UNFPA successfully advocated to the Ministry of Health for sexual and reproductive health to be allocated in the national budget.",
         "type": "srhbudget"
       },
       "geometry": {
@@ -177,7 +177,7 @@
         "ID": "11",
         "country": "Sao Tome and Principe ",
         "title": "Decriminalisation of abortion",
-        "description": "Abortion - The Member Association (MA) successfully advocated for abortion to be decriminalised. A Associacao Santomense para Promocao Familiar (ASPF) convinced decision makers, parliamentarians and community leaders to close certain loopholes in the penal code that had criminalised abortion. What is the name / relevant article of the code? (not mentioned in 'At a Glance')",
+        "description": "A Associacao Santomense para Promocao Familiar (ASPF)  successfully advocated for abortion to be decriminalised. They convinced decision makers, parliamentarians and community leaders to close certain loopholes in the penal code that had criminalised abortion.",
         "type": "abortion"
       },
       "geometry": {
@@ -194,7 +194,7 @@
         "ID": "12",
         "country": "Djibouti",
         "title": "Sexual and reproductive health programme for youth",
-        "description": "Adol - A permanent National Adolescent Sexual and Reproductive Health (ASRH) programme has been instituted to focus on the provision of SRH and counselling services in educational establishments for young people.",
+        "description": "A permanent National Adolescent Sexual and Reproductive Health programme has been instituted to focus on the provision of SRH and counselling services in educational establishments for young people.",
         "type": "education"
       },
       "geometry": {
@@ -211,7 +211,7 @@
         "ID": "13",
         "country": "Palestine ",
         "title": "National strategic plan for sexual and reproductive health ",
-        "description": "The Member Association (MA) advocated and worked with the Palestine Government / Ministry of Education to develop the \"National Strategic Plan for the Educational National Committee Health Promotion emphasizing Sexual and Reproductive Health (SRH)\". The Palestine Member Association (MA) was responsible for drafting the Reproductive Health (RH) component of the strategy, which focused on sexual rights, services related to abortion, emergency contraception, friendly youth services and CYP, etc.",
+        "description": "The Palestinian Family Planning and Protection Association (PFPPA) advocated and worked with the Palestine Government and Ministry of Education to develop the \"National Strategic Plan for the Educational National Committee Health Promotion emphasizing Sexual and Reproductive Health\". They were responsible for drafting the Reproductive Health component of the strategy, which focused on sexual rights, services related to abortion, emergency contraception, friendly youth services and couple years of protection.",
         "type": "access"
       },
       "geometry": {
@@ -228,25 +228,8 @@
         "ID": "14",
         "country": "Palestine",
         "title": "Comprehensive sexual health and health promotion programme unveiled",
-        "description": "(2) Access - The  Member Association (MA) successfully advocated for lessening restrictions on Sexual and Reproductive Health (SRH) components of the \"Reproductive and Sexual National Strategic Plan \". These include sexual rights, services related to abortion, emergency contraception, friendly youth services and couple years of protection (CYP). The Palestinian Family Planning and Protection Association (PFPPA) also played a prime role to work with the Ministry of Health and the Ministry of Education to develop and finalise the National Strategy for Promoting Reproductive Health (RH) to include Sexual and Reproductive Health and Rights (SRHR)  and the National Strategic Framework for Promotion and Education that was endorsed by the ministry. ",
+        "description": "The Palestinian Family Planning and Protection Association (PFPPA) successfully advocated for lessening restrictions on Sexual and Reproductive Health components of the \"Reproductive and Sexual National Strategic Plan \". These include sexual rights, services related to abortion, emergency contraception, friendly youth services and couple years of protection. The Palestinian Family Planning and Protection Association (PFPPA) also played a prime role to work with the Ministry of Health and the Ministry of Education to develop and finalise the National Strategy for Promoting Reproductive Health to include Sexual and Reproductive Health and Rights and the National Strategic Framework for Promotion and Education that was endorsed by the ministry. ",
         "type": "education"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.1620722,
-          31.6497405
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ID": "15",
-        "country": "Palestine",
-        "title": "Honour killings for adultery now illegal",
-        "description": "The Palestine Member Association (MA) advocated for changing or removing Article 340 of the Penal Code of 1960 on the legal excuses for justifying murder in the events of illegal adultery  (i.e. allowing husband or brother /father to kill the woman who committed adultery. The ministry approved halting/freezing the code so that a new code will be drafted that will not allow such crimes.",
-        "type": "violence"
       },
       "geometry": {
         "type": "Point",
@@ -262,7 +245,7 @@
         "ID": "16",
         "country": "Palestine",
         "title": "Honour killings for adultery now illegal",
-        "description": "The Palestine Member Association (MA) advocated for removing or modifying Article 18 of the Penal Code from 1936 concerning justifying murder of defense (i.e. a husband/father/brother killing the partner and /or woman who committed adultery defending the honor of the family)? The Minster of Awqaf  (religious) and the Minister of Women's Affairs supported the change. The Ministry approved halting/freezing this section of code so that a new code can be drafted that will not allow such crimes.",
+        "description": "The Palestinian Family Planning and Protection Association (PFPPA) advocated for removing or modifying Article 18 of the Penal Code from 1936 concerning justifying murder of defense (i.e. a husband/father/brother killing the partner and /or woman who committed adultery defending the honor of the family. The Minster of Awqaf and the Minister of Women's Affairs supported the change. The Ministry approved halting/freezing this section of code so that a new code can be drafted that will not allow such crimes.",
         "type": "violence"
       },
       "geometry": {
@@ -279,7 +262,7 @@
         "ID": "17",
         "country": "Palestine",
         "title": "Women's shelters refurbished",
-        "description": " The Palestine Member Association (MA) as a member of the Palestinian non-governmental organisations (NGOs) Against Domestic Violence Against Women (Al MUNTADA) advocated with the Ministry of Social Affairs to re-evaluate the shelter houses for abused women. The advocacy request was allowed on appeal and the Ministry of Social Affairs decided the budgetary allocation to fund the upgrade and operationalisation of shelter houses. ",
+        "description": " The Palestinian Family Planning and Protection Association (PFPPA), as a member of the Palestinian non-governmental organisations (NGOs) Against Domestic Violence Against Women, (Al MUNTADA), advocated with the Ministry of Social Affairs to re-evaluate the shelter houses for abused women. The advocacy request was allowed on appeal and the Ministry of Social Affairs decided the budgetary allocation to fund the upgrade and operationalisation of shelter houses. ",
         "type": "violence"
       },
       "geometry": {
@@ -296,7 +279,7 @@
         "ID": "18",
         "country": "Palestine",
         "title": "New criminal sanctions for violence against women",
-        "description": "The Family Protection Law, which criminalises violence against women has been finalized and approved by the Palestinian Legislative Council. The Member Assocation (MA) played a key role in advocating for this law through its role as a member in the Palestinian non-governmental organisations (NGOs) Against domestic violence Against women( Al MUNTADA). ",
+        "description": "The Family Protection Law, which criminalises violence against women has been finalized and approved by the Palestinian Legislative Council. The Palestinian Family Planning and Protection Association (PFPPA) played a key role in advocating for this law through its role as a member in the Palestinian NGOs Against domestic violence Against women (Al MUNTADA). ",
         "type": "violence"
       },
       "geometry": {
@@ -330,7 +313,7 @@
         "ID": "20",
         "country": "Albania ",
         "title": "Comprehensive sexuality education policy adopted by the Ministry of Health.",
-        "description": "The Member Association contributed to a policy adopted by the Ministry of Health. The paper states the principles of comprehensive sexuality education as being based on human rights, being evidence based, culturally sensitive, and participatory. It identifies the multi-sectorial efforts and dimensions of prevention education and furthermore identifies the role of different institutions in terms of planning, implementing and evaluation initiatives.",
+        "description": "The Family Planning Association of Albania (FPAA) contributed to a policy adopted by the Ministry of Health. The paper states the principles of comprehensive sexuality education as being based on human rights, being evidence based, culturally sensitive, and participatory. It identifies the multi-sectorial efforts and dimensions of prevention education and furthermore identifies the role of different institutions in terms of planning, implementing and evaluation initiatives.",
         "type": "education"
       },
       "geometry": {
@@ -347,7 +330,7 @@
         "ID": "21",
         "country": "Albania",
         "title": "Ensuring quality services through Ministry of Health approved HIV and STI guidelines for youth ",
-        "description": "The Member Association was supported by UNICEF to successfully advocate to the Ministry of Health for the approval of Guidelines it drafted on STI/HIV services for Youth. The MA then focused on access and quality of services by training service providers and other key actors in the industry. The MA then supervised and monitored the efforts in the follow up phase to ensure proper practice and quality of services.",
+        "description": "The Family Planning Association of Albania (FPAA) was supported by UNICEF to successfully advocate to the Ministry of Health for the approval of Guidelines it drafted on STI/HIV services for Youth. FPAA then focused on access and quality of services by training service providers and other key actors in the industry. The MA then supervised and monitored the efforts in the follow up phase to ensure proper practice and quality of services.",
         "type": "hiv"
       },
       "geometry": {
@@ -363,8 +346,8 @@
       "properties": {
         "ID": "22",
         "country": "Belgium ",
-        "title": "Comprehensive Sex Education is part of the regional curriculum",
-        "description": "Adolescents (CSE) - The Member Association in the French speaking region launched a successfully publicity campaign to get sexual health education into the regional school curriculum. (nationally there is no legal definition for sexual health education)",
+        "title": "Comprehensive Sexuality Education is part of the regional curriculum",
+        "description": " The Member Association in the French speaking region launched a successfully publicity campaign to get sexual health education into the regional school curriculum. (nationally there is no legal definition for sexual health education)",
         "type": "education"
       },
       "geometry": {
@@ -381,7 +364,7 @@
         "ID": "23",
         "country": "Belgium",
         "title": "Subsidies for contraception maintained",
-        "description": "Adolescents - The MA was active in helping to defeat a motion to remove the regulation which subsidises contraception for youth under the social security system.",
+        "description": "The Member Association was active in helping to defeat a motion to remove the regulation which subsidises contraception for youth under the social security system.",
         "type": "srhbudget"
       },
       "geometry": {
@@ -398,7 +381,7 @@
         "ID": "24",
         "country": "Bulgaria",
         "title": "Sexual and reproductive health for Roma",
-        "description": "Access - The Member Association (MA) successfully advocated to the Government to include Sexual and Reproductive Health and Rights (SRHR) in the Health Chapter of the Roma Integration Strategy for 2012-2020.  This brought clear definition to SRHR issues regarding the integration of the Roma for the first time.",
+        "description": "The Member Association successfully advocated to the government to include sexual and reproductive health and rights in the Health Chapter of the Roma Integration Strategy for 2012-2020.  This brought clear definition to sexual and reproductive health and rights issues regarding the integration of the Roma for the first time.",
         "type": "access"
       },
       "geometry": {
@@ -415,7 +398,7 @@
         "ID": "25",
         "country": "Denmark",
         "title": "Sexual and reproductive health budget maintained",
-        "description": "The Member Association (MA) successfully advocated to the Ministry of Health, MPs and the public to ensure that funding for Sexual and Reproductive Health and Rights (SRHR) was maintained at previous levels despite 20% overall cuts to the health budget.",
+        "description": "Sex og Samfund - The Danish Family Planning Association (DFPA) successfully advocated to the Ministry of Health, MPs and the public to ensure that funding for sexual and reproductive health and rights was maintained at previous levels despite 20% overall cuts to the health budget.",
         "type": "srhbudget"
       },
       "geometry": {
@@ -432,7 +415,7 @@
         "ID": "26",
         "country": "Finland",
         "title": "Paternity leave extended",
-        "description": " The Member Association has worked to advocate for paternity leave to be extended and for parents to decide how they can use the leave without penalties on either parent for the allocation of leave taken as previously before.",
+        "description": " Väestöliitto (The Family Federation of Finland) has worked to advocate for paternity leave to be extended and for parents to decide how they can use the leave without penalties on either parent for the allocation of leave taken as previously before.",
         "type": "srhbudget"
       },
       "geometry": {
@@ -449,7 +432,7 @@
         "ID": "27",
         "country": "Finland ",
         "title": "Sexual and reproductive health a national issue",
-        "description": " There has been a strong inclusion of Sexual and Reproductive Health and Rights (SRHR) in the new Finnish Development Policy. As gender equality and decreasing inequity are cross cutting goals, support for SRHR including maternal health care and addressing HIV and AIDS as a health and social problem have been determined as Finland's ways to promote human development. ",
+        "description": " There has been a strong inclusion of sexual and reproductive health and rights in the new Finnish Development Policy. As gender equality and decreasing inequity are cross cutting goals, support for SRHR including maternal health care and addressing HIV and AIDS as a health and social problem have been determined as Finland's ways to promote human development. ",
         "type": "access"
       },
       "geometry": {
@@ -466,7 +449,7 @@
         "ID": "28",
         "country": "France ",
         "title": "Cost of abortion fully covered by state",
-        "description": "Abortion - The Member Association (MA) worked with two other non-governmental organisations to successfully advocate to the government and candidates in the 2012 presidential election to increase the amount by which the cost of abortion is reimbursed by the state national insurance scheme to 100%. The campaign was successful and now abortion is fully covered.",
+        "description": "Mouvement Français pour le Planning Familial (MFPF) worked with two other non-governmental organisations to successfully advocate to the government and candidates in the 2012 presidential election to increase the amount by which the cost of abortion is reimbursed by the state national insurance scheme to 100%. The campaign was successful and now abortion is fully covered.",
         "type": "abortion"
       },
       "geometry": {
@@ -483,7 +466,7 @@
         "ID": "29",
         "country": "France ",
         "title": "Improved contraception access for under 18s",
-        "description": " Adol - The Member Association (MA) advocated for people under 18 to access contraception for free in health providers additional to Family Planning (FP) clinics. As a result, young people can now access contraception at the GP and the Gynaecologist. ",
+        "description": " Mouvement Français pour le Planning Familial (MFPF) advocated for people under 18 to access contraception for free in health providers additional to family planning clinics. As a result, young people can now access contraception at the GP and the gynaecologist. ",
         "type": "access"
       },
       "geometry": {
@@ -500,7 +483,7 @@
         "ID": "30",
         "country": "Germany",
         "title": "Private health insurance fees same for both sexes",
-        "description": "Access - Previously, women paid more for private health insurance than men. The Member Association (MA) successfully advocated for a new law to be put in place which requires that men and women pay the same amount for private health insurance. What is the name of the law?",
+        "description": "Previously, women paid more for private health insurance than men. PRO FAMILIA Bundesverband successfully advocated for a new law to be put in place which requires that men and women pay the same amount for private health insurance.",
         "type": "srhbudget"
       },
       "geometry": {
@@ -517,7 +500,7 @@
         "ID": "31",
         "country": "Germany",
         "title": "Quarterly fee scrapped for doctor's visits",
-        "description": "Access - Public insurance systems administrators have scrapped the requirement for members to pay a quarterly fee for doctors' visits. This is pursuant to a decision taken by the German Parliament in November 2012.",
+        "description": "Public insurance systems administrators have scrapped the requirement for members to pay a quarterly fee for doctors' visits. This is pursuant to a decision taken by the German Parliament in November 2012.",
         "type": "srhbudget"
       },
       "geometry": {
@@ -534,7 +517,7 @@
         "ID": "32",
         "country": "Netherlands ",
         "title": "Sexual and reproductive health a national issue",
-        "description": "Access - Funding for Sexual and Reproductive Health and Rights (SRHR) remained a priority and was not cut as much as it could have been in light of the big cuts to the development budget.",
+        "description": "Funding for sexual and reproductive health and rights remained a priority and was not cut as much as it could have been in light of the big cuts to the development budget.",
         "type": "srhbudget"
       },
       "geometry": {
@@ -551,7 +534,7 @@
         "ID": "33",
         "country": "Spain ",
         "title": "Abortion rights maintained",
-        "description": "Abortion - A proposal to change the law back to \"no abortion on demand\" was defeated. Where was this defeated? In the Parliament? The court?",
+        "description": "A proposal to change the law back to \"no abortion on demand\" was defeated.",
         "type": "abortion"
       },
       "geometry": {
@@ -568,7 +551,7 @@
         "ID": "34",
         "country": "Sweden",
         "title": "Insemination for single women",
-        "description": "Access - Single women now have access to insemination.",
+        "description": "Single women now have access to insemination.",
         "type": "conception"
       },
       "geometry": {
@@ -585,7 +568,7 @@
         "ID": "35",
         "country": "Armenia ",
         "title": "Safe abortion services for women with HIV",
-        "description": "Abortion - The Pan-Armenian Family Health Association (PAFHA) provided recommendations to the Ministry of Health to revise the law requiring women to have an HIV test and ultrasound before an abortion procedure. As a result, the Ministry revised the law, thereby rendering safe abortion services accessible to women with HIV. What is the name of the law that was changed?",
+        "description": "The Pan-Armenian Family Health Association (PAFHA) provided recommendations to the Ministry of Health to revise the law requiring women to have an HIV test and ultrasound before an abortion procedure. As a result, the Ministry revised the law, thereby rendering safe abortion services accessible to women with HIV.",
         "type": "abortion"
       },
       "geometry": {
@@ -602,7 +585,7 @@
         "ID": "36",
         "country": "Bosnia and Herzegovina",
         "title": "Sexual and reproductive health a national issue",
-        "description": "Access - A Sexual and Reproductive Health and Rights (SRHR) strategy has been developed for the Republic of Srpska as a result of advocacy by the Member Association (MA). ",
+        "description": "A sexual and reproductive health and rights strategy has been developed for the Republic of Srpska as a result of advocacy by the Member Association. ",
         "type": "access"
       },
       "geometry": {
@@ -619,7 +602,7 @@
         "ID": "37",
         "country": "Kazakhstan",
         "title": "Wider access to abortion services",
-        "description": "Access - In 2009, the Ministry of Health (MoH) issued an order permitting the performance of abortions at the Primary Health Care (PHC) level. Two cities, Astana and Almaty, in this country of 14 provinces, have a functional local Health Department (HD). The HDs usually issue the local orders based on the MoH order. In spite of the MoH order permitting medical abortion and Manual Vacuum Aspiration (MVA) at PHC level up to 49 days of gestation, the Almaty HD did not give any permission for a medical abortion since December 2009. The Member Association (MA) conducted several meetings with representatives of Almaty Health Department and partners and explained the safety of medical abortion and MVA at PHC level. Only in February 2012 did the Almaty HD authorise the permission of abortion up to 49 days of gestation in Almaty at PHC level, but only medical abortion. \n",
+        "description": "In 2009, the Ministry of Health issued an order permitting the performance of abortions at the Primary Health Care level. Two cities, Astana and Almaty, in this country of 14 provinces, have a functional local Health Department. These departments usually issue the local orders based on the MoH order. In spite of the MoH order permitting medical abortion and Manual Vacuum Aspiration (MVA) at PHC level up to 49 days of gestation, the Almaty HD did not give any permission for a medical abortion since December 2009. The Member Association conducted several meetings with representatives of Almaty Health Department and partners and explained the safety of medical abortion and MVA at PHC level. Only in February 2012 did the Almaty HD authorise the permission of abortion up to 49 days of gestation in Almaty at PHC level, but only medical abortion. \n",
         "type": "abortion"
       },
       "geometry": {
@@ -636,7 +619,7 @@
         "ID": "38",
         "country": "Kyrgyzstan",
         "title": "Reproductive health law improved",
-        "description": "Access - In 2010, the Member Association (MA), UNFPA and the Parliament undertook jointly an assessment of the 2000 reproductive health law. The study identified gaps in the law and its implementation and made recommendations for amendments to the law. As a result, the law was amended in 2012. What is the name of the law? ",
+        "description": "In 2010, the Member Association, UNFPA and the Parliament undertook jointly an assessment of the 2000 reproductive health law. The study identified gaps in the law and its implementation and made recommendations for amendments to the law. As a result, the law was amended in 2012. ",
         "type": "access"
       },
       "geometry": {
@@ -653,7 +636,7 @@
         "ID": "39",
         "country": "Latvia ",
         "title": "Abortion rights maintained",
-        "description": "Abortion - The Latvian Member Association (MA) led a coalition of organisations to block a change in the definition in 'child' in the national child protection policy. The proplsal was to define a 'child' as beginning at conception, which would have made abortion illegal under all circumstances.",
+        "description": "The Latvian Member Association led a coalition of organisations to block a change in the definition in 'child' in the national child protection policy. The proplsal was to define a 'child' as beginning at conception, which would have made abortion illegal under all circumstances.",
         "type": "abortion"
       },
       "geometry": {
@@ -670,7 +653,7 @@
         "ID": "40",
         "country": "Lithuania",
         "title": "Youth friendly services provided",
-        "description": "Adolescents - The Member Assocation (MA) successfully advocated for the government to adopt a programme for youth friendly services (YFS) at national level. One did not exist before.",
+        "description": "The Member Assocation successfully advocated for the government to adopt a programme for youth friendly services at national level. One did not exist before.",
         "type": "education"
       },
       "geometry": {
@@ -687,7 +670,7 @@
         "ID": "41",
         "country": "Tajikistan",
         "title": "Doctors trained on safe abortions",
-        "description": "Abortion - National standards on how to conduct a safe abortion are now included in the OBGYN curriculum.",
+        "description": "National standards on how to conduct a safe abortion are now included in the OBGYN curriculum.",
         "type": "abortion"
       },
       "geometry": {
@@ -704,7 +687,7 @@
         "ID": "42",
         "country": "Ukraine",
         "title": "Abortion rights maintained",
-        "description": "Abortion - The MA was instrumental in stopping a proposed legal change to ban abortion.",
+        "description": "The Member Association was instrumental in stopping a proposed legal change to ban abortion.",
         "type": "abortion"
       },
       "geometry": {
@@ -721,7 +704,7 @@
         "ID": "43",
         "country": "Israel",
         "title": "HPV vaccine for young girls",
-        "description": "Access - The Member Association (MA) successfully lobbied the government to include the HPV vaccine within the list of services provided for free to all adolescent girls.",
+        "description": "The Member Association successfully lobbied the government to include the HPV vaccine within the list of services provided for free to all adolescent girls.",
         "type": "cervicalcancer"
       },
       "geometry": {
@@ -738,7 +721,7 @@
         "ID": "44",
         "country": "Israel",
         "title": "Youth friendly abortion policy",
-        "description": " Abortion - The MA successfully advocated for the government to develop a policy for youth-friendly abortion service for women 19 years and under. The policy, named \"Conduct in Cases of Pregnancy and Abortion for Girls up to 19 Years of Age\" obligates all hospitals and HMOs to preserve confidentiality in such cases on all levels; cancel or reduce all fees charged, and make efforts to enable the girls to receive the necessary care as soon as possible.",
+        "description": " The Member Association successfully advocated for the government to develop a policy for youth-friendly abortion service for women 19 years and under. The policy, named \"Conduct in Cases of Pregnancy and Abortion for Girls up to 19 Years of Age\" obligates all hospitals and HMOs to preserve confidentiality in such cases on all levels; cancel or reduce all fees charged, and make efforts to enable the girls to receive the necessary care as soon as possible.",
         "type": "abortion"
       },
       "geometry": {
@@ -755,7 +738,7 @@
         "ID": "45",
         "country": "Republic of Macedonia",
         "title": "HIV treatment budget increased",
-        "description": "HIV - The budgetary allocation for anti-retroviral treatment (ART) has been increased.",
+        "description": "The budgetary allocation for anti-retroviral treatment (ART) has been increased.",
         "type": "hiv"
       },
       "geometry": {
@@ -772,7 +755,7 @@
         "ID": "46",
         "country": "Republic of Macedonia",
         "title": "Family planning for Roma community",
-        "description": " Access - The Member Association successfully lobbied the Ministry of Health (MoH) to provide 16 Roma Health Mediators within the Roma community who will educate on elements of family planning and HIV as part of health promotion activities of the certified Roma Health Mediators. Eight of the mediators are funded by the MoH and the other eight are funded by the Open Society Institute Macedonia.",
+        "description": " The Member Association successfully lobbied the Ministry of Health (MoH) to provide 16 Roma Health Mediators within the Roma community who will educate on elements of family planning and HIV as part of health promotion activities of the certified Roma Health Mediators. Eight of the mediators are funded by the MoH and the other eight are funded by the Open Society Institute Macedonia.",
         "type": "education"
       },
       "geometry": {
@@ -789,7 +772,7 @@
         "ID": "47",
         "country": "Australia",
         "title": "Wider abortion drug choice",
-        "description": "Abortion - Mifepristone has been added to the Therapeutic Goods Administration (TGA) Register of the Commonwealth of Australia. The TGA registration will mean that General Practitioners (GPs) can now potentially prescribe the early medication drugs (mifepristone and misoprostol) which will improve access for women, especially in rural areas. The Pharmaceutical Benefits Scheme (PBS) listing will improve access for all women by making them more cheaply available. ",
+        "description": "Mifepristone has been added to the Therapeutic Goods Administration (TGA) Register of the Commonwealth of Australia. The TGA registration will mean that general practitioners (GPs) can now potentially prescribe the early medication drugs (mifepristone and misoprostol) which will improve access for women, especially in rural areas. The Pharmaceutical Benefits Scheme (PBS) listing will improve access for all women by making them more cheaply available. ",
         "type": "abortion"
       },
       "geometry": {
@@ -806,7 +789,7 @@
         "ID": "48",
         "country": "Myanmar",
         "title": "Improved access to emergency contraception ",
-        "description": "Access -  The Member Association (MA) successfully lobbied the government to ensure that emergency contraception (EC) is now available over the counter, and included in training materials as a contraceptive method. Previously it was only available on the black market.",
+        "description": "The Member Association successfully lobbied the government to ensure that emergency contraception is now available over the counter, and included in training materials as a contraceptive method. Previously it was only available on the black market.",
         "type": "access"
       },
       "geometry": {
@@ -823,7 +806,7 @@
         "ID": "49",
         "country": "Kiribati ",
         "title": "Sexual and reproductive health a national issue",
-        "description": "Access - The Member Association (MA) Kiribati Family Health Association (KFHA) advocated for and was involved in the development of a draft National Sexual and Reproductive Health (SRH) Policy in 2011. Before this, there was no Sexual and Reproductive Health and Rights (SRHR) policy in Kiribati, and SRHR programmes were not properly planned and implemented. The policy was finalised and adopted by the Ministry of Health Services (MOHS) in 2012 and enables the MA to provide SRHR information and services to the outer islands. \n",
+        "description": "The Kiribati Family Health Association (KFHA) advocated for and was involved in the development of a draft National Sexual and Reproductive Health Policy in 2011. Before this, there was no Sexual and Reproductive Health and Rights policy in Kiribati, and programmes were not properly planned and implemented. The policy was finalised and adopted by the Ministry of Health Services (MOHS) in 2012 and enables the KFHA to provide SRHR information and services to the outer islands. \n",
         "type": "access"
       },
       "geometry": {
@@ -840,7 +823,7 @@
         "ID": "50",
         "country": "Korea, Dem. People's Rep of",
         "title": "Youth  in national reproductive health strategy",
-        "description": "Adolescents -The Member Association (MA) in the DPRK has been instrumental in advocating for integration of adolescent issues into the National Reproductive Health Strategy. By providing technical assistance to a baseline Knowledge, Attitude and Practice (KAP) document, the MA has raised awareness of the issue of youth friendly services within the Ministries of Education and Public Health. \nLegislative foundations have been established to provide information and services for young people, and has brought about positive change in the provision of youth friendly services. ",
+        "description": "The Member Association in the DPRK has been instrumental in advocating for integration of adolescent issues into the National Reproductive Health Strategy. By providing technical assistance to a baseline Knowledge, Attitude and Practice (KAP) document, the MA has raised awareness of the issue of youth friendly services within the Ministries of Education and Public Health. \nLegislative foundations have been established to provide information and services for young people, and has brought about positive change in the provision of youth friendly services. ",
         "type": "education"
       },
       "geometry": {
@@ -857,7 +840,7 @@
         "ID": "51",
         "country": "Malaysia ",
         "title": "Abortion guidelines rolled out nationally",
-        "description": "Abortion - In Malaysia, abortion is permitted under emotional, mental and physical grounds; however there were no clear guidelines on the circumstances for providing abortion services within this context. The Federation of Reproductive Health Associations Malaysia (FRHAM) advocated strongly on this issue, and presented a survey on abortion issues, resulting in the formulation of the National Abortion Guidelines (NAG). The NAG outlines the legal context of abortion services in Malaysia as well as provides guidance to medical doctors on the provision of safe abortion services.  ",
+        "description": "In Malaysia, abortion is permitted under emotional, mental and physical grounds; however there were no clear guidelines on the circumstances for providing abortion services within this context. The Federation of Reproductive Health Associations Malaysia (FRHAM) advocated strongly on this issue, and presented a survey on abortion issues, resulting in the formulation of the National Abortion Guidelines (NAG). The NAG outlines the legal context of abortion services in Malaysia as well as provides guidance to medical doctors on the provision of safe abortion services.  ",
         "type": "abortion"
       },
       "geometry": {
@@ -891,7 +874,7 @@
         "ID": "53",
         "country": "Mongolia ",
         "title": "Better human rights protection for sex workers",
-        "description": "The Member Association (MA) lobbied successfully to have Article 12.2 of the Prostitution Law of Mongolia deleted. The article stated that “if a woman is proven to be involved in sex work, the police can inform her family members and authorities in her workplace”, and represented a violation of the basic rights of sex workers which may encourage stigma and discrimination. ",
+        "description": "The Mongolian Family Welfare Association (MFWA) lobbied successfully to have Article 12.2 of the Prostitution Law of Mongolia deleted. The article stated that “if a woman is proven to be involved in sex work, the police can inform her family members and authorities in her workplace”, and represented a violation of the basic rights of sex workers which may encourage stigma and discrimination. ",
         "type": "access"
       },
       "geometry": {
@@ -908,7 +891,7 @@
         "ID": "54",
         "country": "Vanuatu",
         "title": "Sexual and reproductive health services expanded",
-        "description": "Acesss - A new national health staffing structure has been implemented. Previously due to limited staff in the provincial health hospitals especially in Health Promotion & Reproductive Health (RH) units, the provincial hospitals were not able to meet the unmet Sexual and Reproductive Health (SRH) needs among the grassroots.  With the new staffing structure, more ground level SRH activities can be conducted.  These SRH activities include Family Planning (FP) awareness education to mothers in Maternity wards; FP services; Maternal and Child Health (MCH) services; counseling services; dissemination of information, education and communication (IEC) to communities; as well as SRH awareness among the communities.",
+        "description": "A new national health staffing structure has been implemented. Previously due to limited staff in the provincial health hospitals especially in Health Promotion & Reproductive Health (RH) units, the provincial hospitals were not able to meet the unmet Sexual and Reproductive Health (SRH) needs among the grassroots.  With the new staffing structure, more ground level SRH activities can be conducted.  These SRH activities include Family Planning (FP) awareness education to mothers in Maternity wards; FP services; Maternal and Child Health (MCH) services; counseling services; dissemination of information, education and communication (IEC) to communities; as well as SRH awareness among the communities.",
         "type": "access"
       },
       "geometry": {
@@ -925,7 +908,7 @@
         "ID": "55",
         "country": "Vanuatu",
         "title": "Family Life Education now part of national curriculum",
-        "description": "Youth (CSE) - A new Family Life Education (FLE) policy has been adopted at national level. FLE is the same as the CSE promoted by IPPF. It contains all SRH topics for Years 9 - 13.",
+        "description": "A new Family Life Education policy has been adopted at national level. It is the same as the comprehensive sexuality education promoted by IPPF. It contains all sexual and reproductive health and rights topics for Years 9 - 13.",
         "type": "education"
       },
       "geometry": {
@@ -942,7 +925,7 @@
         "ID": "56",
         "country": "Philippines",
         "title": "Reproductive health rights made law",
-        "description": "Access - After 14 years of committed advocacy by the Family Planning Organisation of the Phillipines (FPOP) and its partners, a reproductive health bill finally became law in 2012. The bill, which faced roust opposition from Catholic and other religious group opposition, guarantees universal access to contraception, access to safe post-abortion care, and maternal and newborn care. It will also ensure government provision of sex education in schools, family planning training for community healthy officers, and free provision of services for poor and marginalised communities. What is the name of the law?\n",
+        "description": "After 14 years of committed advocacy by the Family Planning Organisation of the Phillipines (FPOP) and its partners, a reproductive health bill finally became law in 2012. The bill, which faced roust opposition from Catholic and other religious group opposition, guarantees universal access to contraception, access to safe post-abortion care, and maternal and newborn care. It will also ensure government provision of sex education in schools, family planning training for community healthy officers, and free provision of services for poor and marginalised communities. <a href='http://ippf.org/news/Reproductive-Health-Law-historical-victory-Filipino-women' class='read-more'>Read more</a>",
         "type": "access"
       },
       "geometry": {
@@ -959,7 +942,7 @@
         "ID": "57",
         "country": "Nepal",
         "title": "Comprehensive sexuality education compulsory in national curriculum",
-        "description": "Adol (CSE) - The Member Association (MA) advocated successfully against changes in national legislation that would have made comprehensive sexuality education (CSE) optional in grades 8 and 9.",
+        "description": "The Member Association advocated successfully against changes in national legislation that would have made comprehensive sexuality education (CSE) optional in grades 8 and 9.",
         "type": "education"
       },
       "geometry": {
@@ -976,7 +959,7 @@
         "ID": "58",
         "country": "Pakistan",
         "title": "100 more healthcare clinics providing services",
-        "description": "The population welfare fund has been maintained in two provincial budgets. The government of Khaibar Pushtoon Kha allocated funds from the provincial budget for population welfare programmes. As a result they were able to extend their programme by establishing 100 more clinics in the province. What is the other province involved?",
+        "description": "The population welfare fund has been maintained in two provincial budgets. The government of Khaibar Pushtoon Kha allocated funds from the provincial budget for population welfare programmes. As a result they were able to extend their programme by establishing 100 more clinics in the province.",
         "type": "srhbudget"
       },
       "geometry": {
@@ -1010,7 +993,7 @@
         "ID": "60",
         "country": "Barbados ",
         "title": "Sexual and reproductive health  law for youth",
-        "description": "Adolescents - The National Youth Policy of Barbados now includes Sexual and Reproductive Health (SRH). The Barbados Family Planning Association (BFPA) was instrumental in advocating to the government the development of a clear and definitive policy as well as the passing of legislation which addresses the economic, political and social needs of young people. For example access to healthcare, workers rights, education and provision of national service. What is the name of the law?",
+        "description": "The National Youth Policy of Barbados now includes sexual and reproductive health. The Barbados Family Planning Association (BFPA) was instrumental in advocating to the government the development of a clear and definitive policy as well as the passing of legislation which addresses the economic, political and social needs of young people. For example access to healthcare, workers rights, education and provision of national service.",
         "type": "education"
       },
       "geometry": {
@@ -1027,7 +1010,7 @@
         "ID": "61",
         "country": "Bolivia",
         "title": "Sexual and reproductive health and rights made municipal law",
-        "description": "the Member Association lobbied successfully for the passing of bylaws that facilitate local authority compliance with national standards related to access to Sexual and Reproductive Health (SRH) services. Name of national law and/bylaws. Implemented? Outcome?",
+        "description": "the Member Association lobbied successfully for the passing of bylaws that facilitate local authority compliance with national standards related to access to sexual and reproductive health services.",
         "type": "access"
       },
       "geometry": {
@@ -1044,7 +1027,7 @@
         "ID": "62",
         "country": "Bolivia",
         "title": "Better services for gender based violence victims",
-        "description": " A National Decree has established technical norms to guide comprehensive service provision to victims of sexual violence and gender based violence (GBV) who are youth or adolescents. The National Decree delineates how government entitles are to provide services to victims with regards to a national law previously passed on this issue. What is the name of the national law?",
+        "description": " A National Decree has established technical norms to guide comprehensive service provision to victims of sexual violence and gender based violence who are youth or adolescents. The National Decree delineates how government entitles are to provide services to victims with regards to a national law previously passed on this issue.",
         "type": "violence"
       },
       "geometry": {
@@ -1061,7 +1044,7 @@
         "ID": "63",
         "country": "Bolivia",
         "title": "National standards for HPV vaccine ",
-        "description": "(3) Access - The Member Association was successful in advocating to the government the importance of developing national standards on access to and the delivery of the HPV vaccine. As a result, a Ministerial Decree on national standards was developed and implemented. What do the standards entail?",
+        "description": "The Member Association was successful in advocating to the government the importance of developing national standards on access to and the delivery of the HPV vaccine. As a result, a Ministerial Decree on national standards was developed and implemented.",
         "type": "cervicalcancer"
       },
       "geometry": {
@@ -1078,7 +1061,7 @@
         "ID": "64",
         "country": "Bolivia",
         "title": "Rights charter for youth",
-        "description": "Municipal charters for youth Sexual and Reproductive Health and Rights (SRHR). Name of charters? What is notable about this: has this been recently drafted? Implemented, Amended?",
+        "description": "Municipal charters for youth sexual and reproductive health and rights.",
         "type": "education"
       },
       "geometry": {
@@ -1095,7 +1078,7 @@
         "ID": "65",
         "country": "Bolivia",
         "title": "Comprehensive sexuality education a national issue",
-        "description": " (5) Adolescents (CSE) A national standard plan to regulate the incorporation of comprehensive sexuality education (CSE) is being created. What is the name of the plan?",
+        "description": " A national standard plan to regulate the incorporation of comprehensive sexuality education is being created.",
         "type": "education"
       },
       "geometry": {
@@ -1112,7 +1095,7 @@
         "ID": "66",
         "country": "Bolivia",
         "title": "Youth law on rights",
-        "description": "(6) Adolescents - youth law on rights. Name of law? Is this proposed legislation? Drafted? Approved? Implemented? NEED MORE INFO",
+        "description": "Youth law on rights.",
         "type": "education"
       },
       "geometry": {
@@ -1129,7 +1112,7 @@
         "ID": "67",
         "country": "Canada ",
         "title": "Abortion rights maintained",
-        "description": "Abortion - A private members' bill putting forth a motion to create a committee to consider the \"personhood\" of the foetus was defeated in Parliament.",
+        "description": "A private members' bill putting forth a motion to create a committee to consider the \"personhood\" of the foetus was defeated in Parliament.",
         "type": "abortion"
       },
       "geometry": {
@@ -1146,7 +1129,7 @@
         "ID": "68",
         "country": "Colombia ",
         "title": "Tax incentives for employers",
-        "description": "The Member Association successfully lobbied for the government to pass a law allowing employers of women survivors of gender based violence (GBV) to enjoy a tax exemption. What is the name of the law?",
+        "description": "The Member Association successfully lobbied for the government to pass a law allowing employers of women survivors of gender based violence (GBV) to enjoy a tax exemption.",
         "type": "violence"
       },
       "geometry": {
@@ -1163,7 +1146,7 @@
         "ID": "69",
         "country": "Colombia",
         "title": "Abortion care guide implemented",
-        "description": "(1) Abortion -A Guide to Provision of Care for Therapeutic Abortion was approved and implemented. What is the name of the guide? When was it approved? ",
+        "description": "A Guide to Provision of Care for Therapeutic Abortion was approved and implemented.",
         "type": "abortion"
       },
       "geometry": {
@@ -1180,7 +1163,7 @@
         "ID": "70",
         "country": "Costa Rica ",
         "title": "Comprehensive sexuality education in national curriculum",
-        "description": "(2) - Adolescents - The MA was very active in bringing attention to a court case in which the courts reviewed the national programme to provide CSE in schools. They advocated that parents had an opt out right, not opt in. As a result of the direct advocacy, CSE has been incorporated into the national educational curriculum, and parents can choose to opt their children out of the programme. ",
+        "description": "The Member Association was very active in bringing attention to a court case in which the courts reviewed the national programme to provide comprehensive sexuality education in schools. They advocated that parents had an opt out right, not opt in. As a result of the direct advocacy, CSE has been incorporated into the national educational curriculum, and parents can choose to opt their children out of the programme. ",
         "type": "education"
       },
       "geometry": {
@@ -1197,7 +1180,7 @@
         "ID": "71",
         "country": "Costa Rica",
         "title": "Constitutional right to comprehensive sexuality education ",
-        "description": "A case brought contesting the constitutional legitimacy of the state to provide sexuality education was defeated. In what level of the courts? Is there any right of appeal?",
+        "description": "A case brought contesting the constitutional legitimacy of the state to provide sexuality education was defeated.",
         "type": "education"
       },
       "geometry": {
@@ -1214,7 +1197,7 @@
         "ID": "72",
         "country": "Costa Rica",
         "title": "IVF now legal",
-        "description": "(4) A case brought to the Inter-American Court of Human Rights (IACHR) has ruled in favor of legal IVF, thereby nullifying anti-IVF laws in Costa Rica. The Costa Rican constitution provides for IACHR decisions to supercede any existing contravening law in Costa Rica. What is the name of the case?",
+        "description": "A case brought to the Inter-American Court of Human Rights (IACHR) has ruled in favor of legal IVF, thereby nullifying anti-IVF laws in Costa Rica. The Costa Rican constitution provides for IACHR decisions to supercede any existing contravening law in Costa Rica.",
         "type": "conception"
       },
       "geometry": {
@@ -1231,7 +1214,7 @@
         "ID": "73",
         "country": "Dominican Republic ",
         "title": "Sexual and reproductive rights championed",
-        "description": "Adolescents - A proposed Sexual and Reproductive Health (SRH) law that did not promote the right to comprehensive sexuality education (CSE) or youth friendly services (YFS), or contraception for young people was defeated. Work will continue in 2013 to ensure that a better, more comprehensive law is drafted and passed. What is the name of the law that was defeated? ",
+        "description": "A proposed Sexual and Reproductive Health (SRH) law that did not promote the right to comprehensive sexuality education (CSE) or youth friendly services (YFS), or contraception for young people was defeated. Work will continue in 2013 to ensure that a better, more comprehensive law is drafted and passed. ",
         "type": "education"
       },
       "geometry": {
