@@ -1724,7 +1724,7 @@
         "ID": "103",
         "country": "Argentina",
         "title": "Improved abortion services",
-        "description": "Abortion - The (A) Harm Reduction protocol (for abortion) developed as a public policy measure. What is the name of the protocol? What element of harm related to abortion does it reduce?",
+        "description": "A Harm Reduction protocol for abortion was developed as a public policy measure.",
         "type": "abortion"
       },
       "geometry": {
@@ -1741,7 +1741,7 @@
         "ID": "104",
         "country": "Cuba ",
         "title": "Infertility treatment a reality",
-        "description": "The Member Association (MA) established a national programme for treatment of infertility. The MA designed the programme and trained health care workers to provide the necessary services of infertility. What is the name of the programme? Under what authority has it been implemented?",
+        "description": "The Member Association established a national programme for treatment of infertility. The MA designed the programme and trained health care workers to provide the necessary services of infertility. ",
         "type": "conception"
       },
       "geometry": {
@@ -1756,9 +1756,9 @@
       "type": "Feature",
       "properties": {
         "ID": "105",
-        "country": "\n\nADDIS, ETHIOPIA",
+        "country": "\n\nAddis, Ethiopia",
         "title": "Sexual & reproductive health and rights as a Japanese priority in African development",
-        "description": "TICAD V is co-organized by the Government of Japan, the Africa Union Commission, United Nations Development Programme, Office of the Special Advisor on Africa (OSSA) and World Bank. TICAD V is the forum led by the Government of Japan where African nations and their partners (governments; international organizations; private sector and civil society) agree on the priority areas for cooperation to accelerate African development.\nTo support the last TICAD preparation Meeting in Addis Ababa on 16-17 March 2013, IPPF organized a petition in a final bid to prioritize reproductive health in the outcome document before it presented at the conference in June.\nOver 130 civil society organizations including IPPF Member Associations have signed the petition with many more agencies and organizations from Africa and Japan joining on a daily basis.\nIPPF has advocated for sexual and reproductive health to remain at the heart of the TICAD agenda since 2007. TICAD V is significant as the priorities agreed here will inform Japanese priorities in African development and the post 2015 development agenda.\n",
+        "description": "TICAD V is co-organized by the Government of Japan, the Africa Union Commission, United Nations Development Programme, Office of the Special Advisor on Africa (OSSA) and World Bank. It is the forum where African nations and their governments, private sector and civil society, agree on the priority areas for cooperation to accelerate African development.\nIPPF organized a petition signed by 1300 civil society organizations to prioritize sexual and reproductive health to remain at the heart of the TICAD agenda since 2007. TICAD V is significant as the priorities agreed here will inform Japanese priorities in African development and the post 2015 development agenda.\n",
         "type": "global"
       },
       "geometry": {
