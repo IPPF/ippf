@@ -1892,7 +1892,7 @@
       "type": "Feature",
       "properties": {
         "ID": "113",
-        "country": "BELGIUM",
+        "country": "Belgium",
         "title": "European Network Regional Office (ENRO) at the heart of debates on the EU future development framework ",
         "description": "social aspects included in the 2012 EU council conclusions on the Agenda for Change ",
         "type": "global"
@@ -1909,7 +1909,7 @@
       "type": "Feature",
       "properties": {
         "ID": "114",
-        "country": "BELGIUM",
+        "country": "Belgium",
         "title": "Test***",
         "description": "Following from the council conclusions on the agenda for change which sets the framework for the EU budget for the next 7 years (Multi-annual Financial Framework MFF), safeguarding overall ODA levels in the next MFF in context of crisis and  guaranteeing the inclusion of the social aspects in one of the main geographical instruments for development for Asia and Latin America called DCI ",
         "type": "global"
@@ -1926,7 +1926,7 @@
       "type": "Feature",
       "properties": {
         "ID": "115",
-        "country": "\nBRUXELLES, BELGIUM",
+        "country": "Belgium",
         "title": "The European Task Force policy papers on Beyond 2015 includes the recommendation for a strong and improved gender goal for the future framework and specific calls to fight violence against women and girls. ",
         "description": "IPPF EN provided extensive input in the definition of inclusiveness and vulnerability. We also pushed for the IPPF gender goal and for the inclusion of a section on violence, esp on sexual violence.  The European Task force drafted a common European NGO recommendations paper to influence the EU governments before the council conclusions on Post 2015 in 2013. IPPF EN thereby strategically reinforced its partnerships among European NGOs to secure its future advocacy asks.  ",
         "type": "global"
@@ -1934,8 +1934,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3516841,
-          50.8465406
+          5.493164,
+          49.681847
         ]
       }
     },
