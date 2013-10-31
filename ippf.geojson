@@ -1144,7 +1144,7 @@
       "type": "Feature",
       "properties": {
         "ID": "69",
-        "country": "Colombia",
+        "country": "Costa Rica",
         "title": "Abortion care guide implemented",
         "description": "A Guide to Provision of Care for Therapeutic Abortion was approved and implemented.",
         "type": "abortion"
@@ -1152,8 +1152,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.992188,
-          1.230374
+          -83.265381,
+          10.358151
         ]
       }
     },
