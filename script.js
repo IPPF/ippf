@@ -32,7 +32,7 @@ var geoJsonTop = [
     },
     "properties": {
         "title": "East and South East Asia and Oceania",
-        "number": "22"
+        "number": "10"
     }
 },
 {
@@ -43,7 +43,7 @@ var geoJsonTop = [
     },
     "properties": {
         "title": "South Asia",
-        "number": "24"
+        "number": "3"
     }
 },
 {
@@ -54,7 +54,7 @@ var geoJsonTop = [
     },
     "properties": {
         "title": "European Network",
-        "number": "54"
+        "number": "27"
     }
 },
 {
@@ -65,7 +65,7 @@ var geoJsonTop = [
     },
     "properties": {
         "title": "Western Hemisphere",
-        "number": "54"
+        "number": "45"
     }
 }
 
