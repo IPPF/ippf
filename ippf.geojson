@@ -1786,25 +1786,7 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "ID": "107",
-        "country": "United States",
-        "title": "CSW: Supporting governments to stop violence against women around the globe",
-        "description": "<p>IPPF worked with Oxfam, ActionAid UK, Womankind, Gender and Development Network and the Orchid Project to support Member State delegations and UN missions attending the Commission of the Status of Women meetings. This support was delivered through training, briefings and letters to governments.</p><p> This coalition has been working to raise awareness of violence against women and the importance of agreeing key international standards to keep women safe. </p>
-        <a href='http://ippf.org/resources/publications/CSW-2013-Elimination-and-prevention-all-forms-violence-against-women-and-girl' class='read-more'>Read more</a>",
-        "type": "global"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.712891,
-          37.090240
-        ]
-      }
-    },
-    {
+        {
       "type": "Feature",
       "properties": {
         "ID": "108",
