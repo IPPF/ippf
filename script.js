@@ -79,7 +79,6 @@ var geoJsonData;
 $.getJSON('ippf.geojson', function(data) {
     geoJsonData = data;
 
-     
 // Load the map 
 var map = L.mapbox.map('map', 'ippf.gb9gdclc', {
 
