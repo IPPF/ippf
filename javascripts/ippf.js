@@ -1,86 +1,6 @@
 
-// Load the geojson data for the higher level
-
-var geoJsonTop = [
-{
-    "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [36.821946, -1.292066]
-    },
-    "properties": {
-        "title": "Africa",
-        "number": "15"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [10.165960, 36.818810]
-    },
-    "properties": {
-        "title": "Arab World",
-        "number": "8"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [101.686855, 3.139003]
-    },
-    "properties": {
-        "title": "East and South East Asia and Oceania",
-        "number": "11"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [77.224960, 28.635308]
-    },
-    "properties": {
-        "title": "South Asia",
-        "number": "3"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [4.351710, 50.850340]
-    },
-    "properties": {
-        "title": "European Network",
-        "number": "31"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-74.005973, 40.714353]
-    },
-    "properties": {
-        "title": "Western Hemisphere",
-        "number": "62"
-    }
-}
-
-];
-
- 
-
-
-// Load the geojson data from a file
-var geoJsonData;
-$.getJSON('ippf.geojson', function(data) {
-    geoJsonData = data;
-
-// Load the map 
-var map = L.mapbox.map('map', 'ippf.ippf', {
+// Load the map - ippf.ippf
+var map = L.mapbox.map('map', 'robertocarroll.ippf ', {
 
     center: [25, -15],
     zoom: 2,
@@ -101,23 +21,35 @@ var map = L.mapbox.map('map', 'ippf.ippf', {
     }
 });
 
-// Add a marker layer
-var LeafIcon = L.Icon.extend({
-                options: {
-                    shadowUrl: 'images/shadow.png',
-                    shadowRetinaUrl: 'images/shadow@2x.png',
-                    iconSize:     [32, 43],
-                    shadowSize:   [32, 43],
-                    iconAnchor:   [22, 42],
-                    shadowAnchor: [22, 42]
-                }
-            });
-     
-     var s;
-     var customIcon;
-     var introText = $("<div />").append($("#info").clone()).html();
-     $('#map-ui').hide();
+map.scrollWheelZoom.disable();
 
+
+var geoJsonData;
+var geoJsonTop;
+var introText = $("<div />").append($("#info").clone()).html();
+$('#map-ui').hide();
+
+// Load the geojson data from files
+
+// Top level data
+var loadGeoJsonTop = $.getJSON('ippf-top.geojson', function(dataTop) {
+    geoJsonTop = dataTop;    
+ }); // close the loading of the geojson 
+
+// Main data
+var loadGeoJson =$.getJSON('ippf.geojson', function(data) {
+    geoJsonData = data;
+ }); // close the loading of the geojson     
+
+
+// Create a cluster marker layer
+var topMarkers = L.mapbox.markerLayer();
+
+// Add a marker layer for the main map
+var mainMarkers = L.mapbox.markerLayer();
+
+
+// Create a custom icon for the cluster layer
 L.NumberedDivIcon = L.Icon.extend({
       options: {
       iconUrl: 'images/cluster-circle.png',
@@ -146,9 +78,39 @@ L.NumberedDivIcon = L.Icon.extend({
     }
 });
 
+// Create a custom icon for the main
+var LeafIcon = L.Icon.extend({
+                options: {
+                    shadowUrl: 'images/shadow.png',
+                    shadowRetinaUrl: 'images/shadow@2x.png',
+                    iconSize:     [32, 43],
+                    shadowSize:   [32, 43],
+                    iconAnchor:   [22, 42],
+                    shadowAnchor: [22, 42]
+                }
+            });
+     
+     var s;
+     var customIcon;
+     
+// Customise the top marker layer
+topMarkers.on('layeradd', function(e) {
 
-// Add a marker layer
-var mainMarkers = L.mapbox.markerLayer();
+  var marker = e.layer,feature = marker.feature;
+  var howMany = feature.properties.number;
+  numberIcon = new L.NumberedDivIcon({number: howMany});
+  marker.setIcon(numberIcon);
+
+});   
+
+// Add the lat/lon to the layer
+loadGeoJsonTop.complete(function() {
+  topMarkers.setGeoJSON(geoJsonTop);
+});
+
+// Add the layer to the map for the initial view
+map.addLayer(topMarkers);
+
 
 // Customise the marker layer
 mainMarkers.on('layeradd', function(e) {
@@ -163,32 +125,10 @@ mainMarkers.on('layeradd', function(e) {
 });
  
 // set the lat/lon for marker layer
-mainMarkers.setGeoJSON(geoJsonData);
+loadGeoJson.complete(function() {
+  mainMarkers.setGeoJSON(geoJsonData);
+});
 
-// Create a cluster marker layer
-//var clusterMarkers = L.markerClusterGroup({spiderfyOnMaxZoom: false, showCoverageOnHover: false, zoomToBoundsOnClick: false, maxClusterRadius:115});
-
-var topMarkers = L.mapbox.markerLayer();
-
-
-topMarkers.on('layeradd', function(e) {
-    var marker = e.layer,feature = marker.feature;
-    var howMany = feature.properties.number;
-
-     numberIcon = new L.NumberedDivIcon({number: howMany});
-
- marker.setIcon(numberIcon);
-
-});   
-
-// Set the lat/lon for the cluster layer 
-var geoJsonLayer = L.geoJson(geoJsonData);
-
-// Add the lat/lon to the layer
-topMarkers.setGeoJSON(geoJsonTop);
-
-// Add the layer to the map for the initial view
-map.addLayer(topMarkers);
 
 // Control which layers show at which zoom level
 map.on('zoomend', onZoomend);
@@ -203,16 +143,6 @@ function onZoomend()
       document.getElementById('info').innerHTML = introText;
       if (!$('html').hasClass('ie8')) {$('#map-ui').fadeOut('slow');}
 
-        // Hover for the top markers   
-
-        $('.ippf-div-icon').bind('mouseover', function() {    
-          $(this).find('img').attr("src","images/cluster-circle-hover.png");
-        });
-
-        $('.ippf-div-icon').bind('mouseout', function() {
-          $(this).find('img').attr("src","images/cluster-circle.png");
-        });
-
     }
 
   // As you zoom in, remove the cluster layer and add the marker layer
@@ -225,7 +155,6 @@ function onZoomend()
     }
 }
 
-
 // Listen for individual marker clicks
 mainMarkers.on('click',function (e) {
 
@@ -233,16 +162,14 @@ mainMarkers.on('click',function (e) {
 
   var details = e.layer.feature;
                 
-  var info = '<img class="header" src="images/' + details.properties.type +'.png" alt="Type of win: ' + details.properties.type +'">' +
+  var info = '<img class="header" src="images/' + details.properties.type +'.png" alt="'+ details.properties.type +'">' +
               '<h1>' + details.properties.country + '</h1>' +
              '<p class="bold">' + details.properties.title + '</p>' +
              '<p>' + details.properties.description + '</p>';
 
  
  // Load the text for that marker in the info panel
-   if($("html").hasClass("ie8")) {document.getElementById('info').innerHTML = info;}
-
-    else {$('#info').hide().html(info).fadeIn('slow');}
+   document.getElementById('info').innerHTML = info;
 
   // Centre the map around the clicked marker  
     map.panTo(e.layer.getLatLng());
@@ -250,15 +177,22 @@ mainMarkers.on('click',function (e) {
 });
 
 
-// Clear the tooltip when map is clicked
-map.on('click',function(e){
-   document.getElementById('info').innerHTML = introText;
-});
-
-
 // Zoom to the level with lots of markers on click on higher numbered markers
 topMarkers.on('click',function (e) {
   map.setView(e.latlng, map.getZoom() + 3);
+
+  e.layer.unbindPopup();
+
+  var details = e.layer.feature;
+                
+  var info = '<h1>' + details.properties.title + '</h1>' +
+             '<p class="bold">Number of wins: ' + details.properties.number + '</p>' +
+             '<p>' + details.properties.description + '</p>';
+
+ 
+ // Load the text for that marker in the info panel
+   document.getElementById('info').innerHTML = info;
+
 });
 
 
@@ -305,7 +239,6 @@ var filters = document.getElementById('filters');
 
     mainMarkers.on('mouseover', onHoverOver);
 
-
     function onHoverOut(e) {
 
         var marker = e.layer,feature = marker.feature;
@@ -320,19 +253,11 @@ var filters = document.getElementById('filters');
                 
      mainMarkers.on('mouseout', onHoverOut);
 
-  // Hover for the top markers   
 
-  $('.ippf-div-icon').bind('mouseover', function() {   
-    $(this).find('img').attr("src","images/cluster-circle-hover.png");
-  });
-
-  $('.ippf-div-icon').bind('mouseout', function() {
-    $(this).find('img').attr("src","images/cluster-circle.png");
-  });
+ 
 
 
 
- }); // close the loading of the geojson 
 
 
  

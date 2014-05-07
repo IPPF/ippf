@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [36.821946, -1.292066]
+    },
+    "properties": {
+        "title": "Africa",
+        "number": "15",
+        "description": "**put regional win details here**"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [10.165960, 36.818810]
+    },
+    "properties": {
+        "title": "Arab World",
+        "number": "8",
+        "description": "**put regional win details here**"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [101.686855, 3.139003]
+    },
+    "properties": {
+        "title": "East and South East Asia and Oceania",
+        "number": "11",
+        "description": "**put regional win details here**"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [77.224960, 28.635308]
+    },
+    "properties": {
+        "title": "South Asia",
+        "number": "3",
+        "description": "**put regional win details here**"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [4.351710, 50.850340]
+    },
+    "properties": {
+        "title": "European Network",
+        "number": "31",
+        "description": "**put regional win details here**"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-74.005973, 40.714353]
+    },
+    "properties": {
+        "title": "Western Hemisphere",
+        "number": "62",
+        "description": "**put regional win details here**"
+    }
+}
+             ]
+}

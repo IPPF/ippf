@@ -11,11 +11,7 @@
   <link rel="stylesheet" href="ippf.css" />
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="dist/jquery-1.10.2.min.js"><\/script>')</script>
-
-  <!--[if lte IE 8]>
-  <script type="text/javascript" src="ddr-ecma5-1.2.1-min.js"></script>
-  <![endif]-->
+  <script>window.jQuery || document.write('<script src="javascripts/jquery-1.10.2.min.js"><\/script>')</script>
 
   <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
   <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
@@ -28,7 +24,7 @@
 <body>
 <div id='map-ui'>
   <form id='filters'>
-        <h2 class="filter-title">Click the coloured dots to filter by activity focus</h2>
+        <h2 class="filter-title">Click the coloured dots to filter</h2>
         <ul id='options'>
             <li><input type='checkbox' checked=checked class='filter css-checkbox'
                        name='filter' id='access' value='access'/><label class='access' for='access'>Access to SRH services</label></li>
@@ -49,7 +45,11 @@
             <li><input type='checkbox' checked=checked class='filter css-checkbox'
                        name='filter' id='knowledge' value='knowledge'/><label class='knowledge' for='knowledge'>Knowledge sharing and learning</label></li>
             <li><input type='checkbox' checked=checked class='filter css-checkbox'
-                       name='filter' id='global' value='global'/><label class='global' for='global'>Global advocacy</label></li>                                                        
+                       name='filter' id='global' value='global'/><label class='global' for='global'>Global advocacy</label></li>
+            <li><input type='checkbox' checked=checked class='filter css-checkbox'
+                       name='filter' id='member-association' value='member-association'/><label class='member-association' for='member-association'>Member Association</label></li>
+            <li><input type='checkbox' checked=checked class='filter css-checkbox'
+                       name='filter' id='regional-office' value='regional-office'/><label class='regional-office' for='regional-office'>Regional Office</label></li>                                                                              
         </ul>
     </form>
    
@@ -61,7 +61,7 @@
       <p>As a united Federation, IPPF is able to convene leaders from government, civil society and technical agencies to influence high level political will and to ensure that sexual and reproductive health and rights are central to global development and health.</p><p> This interactive map highlights our contribution to these successes around the world.</p><p>The wealth of expertise, knowledge and experience throughout the Federation enables IPPF Member Associations to learn from each other through a range of platforms such as exchange visits. Examples from the Western Hemisphere region are highlighted here.</p>
       </div>
 
-  <script src="script.js"></script>
+  <script src="javascripts/ippf.js"></script>
 
 
 
