@@ -102,7 +102,7 @@
       "properties": {
         "country": "Uganda ",
         "title": "Removing taxes on contraceptives",
-        "description": "Reproductive Health Uganda successfully advocated to the Ministry of Finance, the Ministry of Health, key MPs  and the Uganda Revenue Authority to remove the 18 % Value Added Tax and 6 % withholding tax being levied on reproductive health commodities, such as contraceptives and Mama Kits.<p><img src='http://ippf.org/sites/default/files/imagecache/News_Medium_image_420_234/country/uganda.jpg' width='300'></p>",
+        "description": "Reproductive Health Uganda successfully advocated to the Ministry of Finance, the Ministry of Health, key MPs  and the Uganda Revenue Authority to remove the 18 % Value Added Tax and 6 % withholding tax being levied on reproductive health commodities, such as contraceptives and Mama Kits.<p><img src='http://ippf.org/sites/default/files/imagecache/News_Medium_image_420_234/country/uganda.jpg' width='100%'></p>",
         "type": "srhbudget"
       },
       "geometry": {
@@ -182,7 +182,7 @@
       "properties": {
         "country": "Djibouti",
         "title": "Sexual and reproductive health programme for youth",
-        "description": "A permanent National Adolescent Sexual and Reproductive Health programme has been instituted to focus on the provision of SRH and counselling services in educational establishments for young people.<p><img src='http://ippf.org/static/djibouti.jpg' width='300'>",
+        "description": "A permanent National Adolescent Sexual and Reproductive Health programme has been instituted to focus on the provision of SRH and counselling services in educational establishments for young people.<p><img src='http://ippf.org/static/djibouti.jpg'width='100%'>",
         "type": "education"
       },
       "geometry": {
@@ -1911,7 +1911,7 @@
       "properties": {
         "country": "Colombia and Bolivia",
         "title": "Infertility prevention, detection and treatment provided by Colombia for Bolivia ",
-        "description": "<p>Profamilia in Colombia facilitated technical assistance for CIES, Bolivia. The learning programme allows for rapid transfer of theory to practice through implementation strategies appropriate to the local country context. </p><img src='http://ippf.org/static/CIES.jpg' width='300'></p> ",
+        "description": "<p>Profamilia in Colombia facilitated technical assistance for CIES, Bolivia. The learning programme allows for rapid transfer of theory to practice through implementation strategies appropriate to the local country context. </p><img src='http://ippf.org/static/CIES.jpg' width='100%'></p> ",
         "type": "knowledge"
       },
       "geometry": {
