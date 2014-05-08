@@ -26,7 +26,7 @@ html, body {
       border-left: 2px solid #e6e2db;
   }
 
-#info p { 
+#info p, #info li  { 
   font-size: 12px;
   line-height: 15px;
 }
@@ -94,7 +94,6 @@ a.read-more:hover {
   color: #002F55;
 }
 
-
 .info-image {
   width: 250px;
 }
@@ -135,6 +134,11 @@ ul#options {
   float:left;
   display:inline;
   width:50%;
+  color: #757575;
+} 
+
+#options li:hover  { 
+   color: #212121;
 } 
 
 input[type=checkbox].css-checkbox {
@@ -198,29 +202,36 @@ input[type=checkbox].css-checkbox {
             }
 
             input[type=checkbox].css-checkbox:checked + label.hiv {
-              background-position: 0 -140px;
+              background-position: 0 -120px;
             }
 
             input[type=checkbox].css-checkbox:checked + label.access {
-              background-position: 0 -180px;
+              background-position: 0 -200px;
             } 
             
             input[type=checkbox].css-checkbox:checked + label.srhbudget {
-              background-position: 0 -200px;
-            }
-
-            input[type=checkbox].css-checkbox:checked + label.violence {
               background-position: 0 -220px;
             }
 
+            input[type=checkbox].css-checkbox:checked + label.violence {
+              background-position: 0 -240px;
+            }
+
             input[type=checkbox].css-checkbox:checked + label.knowledge {
-              background-position: 0 -160px;
+              background-position: 0 -140px;
             }
 
             input[type=checkbox].css-checkbox:checked + label.global {
               background-position: 0 -20px;
             }
             
+            input[type=checkbox].css-checkbox:checked + label.member-association {
+              background-position: 0 -160px;
+            }
+
+            input[type=checkbox].css-checkbox:checked + label.regional-office {
+              background-position: 0 -180px;
+            }
             
 
             

@@ -9,7 +9,9 @@
     "properties": {
         "title": "Africa",
         "number": "15",
-        "description": "**put regional win details here**"
+        "ma": "37",
+        "ro": "Nairobi, Kenya",
+        "description": "<p>The Africa Region covers 37 sub-Saharan countries and a population of over 800 million through 11,400 service points. Extreme poverty severely restricts access to sexual and reproductive health services, and restricted access to sexual and reproductive health services exacerbates the impact of poverty.</p><ul><li><strong>39,473,382</strong> sexual and reproductive health services (including contraception) provided</li><li><strong>2,370,768</strong> couple years of protection (CYP)</li><li><strong>14,581,128</strong> sexual and reproductive health services (including contraception) provided to young people under 25 years</li><li><strong>7,107,781</strong> HIV-related services provided</li><li><strong>227,576,575</strong> condoms distributed</li><li><strong>316,693</strong> abortion‑related services provided</li></ul><p>To find out more about IPPF's work in Africa, visit the Africa Region’s website: http://www.ippfar.org</p>"
     }
 },
 {
@@ -21,6 +23,8 @@
     "properties": {
         "title": "Arab World",
         "number": "8",
+         "ma": "14",
+         "ro": "Tunis, Tunisia",
         "description": "**put regional win details here**"
     }
 },
@@ -33,6 +37,8 @@
     "properties": {
         "title": "East and South East Asia and Oceania",
         "number": "11",
+         "ma": "23",
+         "ro": "Kuala Lumpur, Malaysia",
         "description": "**put regional win details here**"
     }
 },
@@ -45,6 +51,8 @@
     "properties": {
         "title": "South Asia",
         "number": "3",
+         "ma": "9",
+         "ro": "New Delhi, India",
         "description": "**put regional win details here**"
     }
 },
@@ -57,6 +65,8 @@
     "properties": {
         "title": "European Network",
         "number": "31",
+         "ma": "40",
+         "ro": "Brussels, Belgium",
         "description": "**put regional win details here**"
     }
 },
@@ -69,6 +79,8 @@
     "properties": {
         "title": "Western Hemisphere",
         "number": "62",
+         "ma": "29",
+         "ro": "New York, United States of America",
         "description": "**put regional win details here**"
     }
 }

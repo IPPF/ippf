@@ -28,6 +28,7 @@ var geoJsonData;
 var geoJsonTop;
 var introText = $("<div />").append($("#info").clone()).html();
 $('#map-ui').hide();
+var clickMarker;
 
 // Load the geojson data from files
 
@@ -81,12 +82,12 @@ L.NumberedDivIcon = L.Icon.extend({
 // Create a custom icon for the main
 var LeafIcon = L.Icon.extend({
                 options: {
-                    shadowUrl: 'images/shadow.png',
-                    shadowRetinaUrl: 'images/shadow@2x.png',
+                    
                     iconSize:     [32, 43],
                     shadowSize:   [32, 43],
                     iconAnchor:   [22, 42],
-                    shadowAnchor: [22, 42]
+                    shadowAnchor: [22, 42],
+                    className: 'ippf-custom-icon'
                 }
             });
      
@@ -113,6 +114,7 @@ map.addLayer(topMarkers);
 
 
 // Customise the marker layer
+
 mainMarkers.on('layeradd', function(e) {
     var marker = e.layer,feature = marker.feature;
      
@@ -123,6 +125,7 @@ mainMarkers.on('layeradd', function(e) {
     marker.setIcon(customIcon);
 
 });
+
  
 // set the lat/lon for marker layer
 loadGeoJson.complete(function() {
@@ -140,6 +143,7 @@ function onZoomend()
     {
       map.addLayer(topMarkers);
       map.removeLayer(mainMarkers);
+      resetMarkers();
       document.getElementById('info').innerHTML = introText;
       if (!$('html').hasClass('ie8')) {$('#map-ui').fadeOut('slow');}
 
@@ -155,9 +159,30 @@ function onZoomend()
     }
 }
 
-// Listen for individual marker clicks
-mainMarkers.on('click',function (e) {
+function resetMarkers() {
 
+    mainMarkers.eachLayer(function(e) {
+          
+          s = e.feature.properties.type;
+
+          customIcon = new LeafIcon({iconUrl: 'images/'+s+'-off.png',iconRetinaUrl: 'images/'+s+'@2x-off.png'});
+          e.setIcon(customIcon);
+    });
+
+}
+
+// Listen for individual marker clicks
+mainMarkers.on('click',function (e) { 
+
+  resetMarkers();
+  
+  var marker = e.layer,feature = marker.feature;
+       
+  // this is to get the correct marker icon depending on the type 
+  s = feature.properties.type;
+  customIcon = new LeafIcon({iconUrl: 'images/'+s+'-hover.png',iconRetinaUrl: 'images/'+s+'@2x-hover.png'});
+  marker.setIcon(customIcon);
+  
   e.layer.unbindPopup();
 
   var details = e.layer.feature;
@@ -186,6 +211,8 @@ topMarkers.on('click',function (e) {
   var details = e.layer.feature;
                 
   var info = '<h1>' + details.properties.title + '</h1>' +
+            '<p class="bold">Regional Office: ' + details.properties.ro + '</p>' +
+            '<p class="bold">Member Associations: ' + details.properties.ma + '</p>' +
              '<p class="bold">Number of wins: ' + details.properties.number + '</p>' +
              '<p>' + details.properties.description + '</p>';
 
@@ -201,62 +228,30 @@ topMarkers.on('click',function (e) {
 var filters = document.getElementById('filters');
  var checkboxes = $('.filter');
 
-        function change() {
-            // Find all checkboxes that are checked and build a list of their values
-            var on = [];
-            for (var i = 0; i < checkboxes.length; i++) {
-                if (checkboxes[i].checked) on.push(checkboxes[i].value);
-            }
-            // The filter function takes a GeoJSON feature object
-            // and returns true to show it or false to hide it.
-            mainMarkers.setFilter(function (features) {
-                // check each marker's symbol to see if its value is in the list
-                // of symbols that should be on, stored in the 'on' array
-
-              return on.indexOf(features.properties['type']) !== -1;
-            });
-            return false;
+    function change() {
+        // Find all checkboxes that are checked and build a list of their values
+        var on = [];
+        for (var i = 0; i < checkboxes.length; i++) {
+            if (checkboxes[i].checked) on.push(checkboxes[i].value);
         }
+        // The filter function takes a GeoJSON feature object
+        // and returns true to show it or false to hide it.
+
+        mainMarkers.setFilter(function (features) {
+            // check each marker's symbol to see if its value is in the list
+            // of symbols that should be on, stored in the 'on' array
+
+          return on.indexOf(features.properties['type']) !== -1;
+
+        });
+        return false;
+        
+    }
 
     // When the form is touched, re-filter markers
         filters.onchange = change;
     // Initially filter the markers
         change();
-
-
-   // Hover for the main markers     
-    function onHoverOver(e) {
-
-        var marker = e.layer,feature = marker.feature;
-
-        // this is to get the correct marker icon depending on the type 
-        s = feature.properties.type;
-        customIcon = new LeafIcon({iconUrl: 'images/'+s+'-hover.png',iconRetinaUrl: 'images/'+s+'@2x-hover.png'});
-
-        marker.setIcon(customIcon);
-
-     }
-
-    mainMarkers.on('mouseover', onHoverOver);
-
-    function onHoverOut(e) {
-
-        var marker = e.layer,feature = marker.feature;
-
-        // this is to get the correct marker icon depending on the type 
-        s = feature.properties.type;
-        customIcon = new LeafIcon({iconUrl: 'images/'+s+'-off.png'});
-
-        marker.setIcon(customIcon); 
-
-    }
-                
-     mainMarkers.on('mouseout', onHoverOut);
-
-
- 
-
-
 
 
 

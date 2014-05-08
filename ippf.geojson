@@ -4734,8 +4734,8 @@
       },
       "properties": {
         "title": "South Asia",
-        "description": "**put regional details here**",
-        "type": "New Delhi",
+        "description": "New Delhi",
+        "type": "regional-office",
         "country": "India"
       }
     },
