@@ -3582,8 +3582,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          101.580650,
-          3.043901
+          102.94189453125,
+          4.083452772038619
         ]
       }
     },
@@ -4702,7 +4702,7 @@
       },
       "properties": {
         "title": "Arab World",
-        "description": "Tunis",
+        "description": "<p>2 Place Virgile,<br>Notre Dame,<br>Tunis,<br>Tunisia<br>Tel: +216 71 847 344<br>Fax: + 216 71 789 934<br>Email: enggased@ippf.org.tn</p><p>To find out more about IPPF's work in the Arab World, go to: <a href='http://www.ippfawr.org/en' class='read-more'>www.ippfawr.org</a></p>",
         "type": "regional-office",
         "country": "Tunisia"
       }
@@ -4718,7 +4718,7 @@
       },
       "properties": {
         "title": "East and South East Asia and Oceania",
-        "description": "Kuala Lumpur",
+        "description": "<p>246 Jalan Ampang,<br>Kuala Lumpur 50450,<br>Malaysia<br>Tel: +60 (3) 425 66 122</p><p>To find out more about IPPF's work in the region, go to: <a href='http://www.ippfeseaor.org/en' class='read-more'>www.ippfeseaor.org</a></p>",
         "type": "regional-office",
         "country": "Malaysia"
       }
@@ -4734,7 +4734,7 @@
       },
       "properties": {
         "title": "South Asia",
-        "description": "New Delhi",
+        "description": "<p>IPPF House,<br>66 Sundar Nagar,<br>New Delhi 110003,<br>Tel: +91 (11) 2435 9221</p><p>To find out more about IPPF's work in South Asia, go to: <a href='http://www.ippfsar.org/en' class='read-more'>www.ippfsar.org</a></p>",
         "type": "regional-office",
         "country": "India"
       }
@@ -4750,7 +4750,7 @@
       },
       "properties": {
         "title": "European Network",
-        "description": "Brussels",
+        "description": "<p>146 rue Royale,<br>Brussels 1000,<br>Tel: +32 (0)2 250 09 50</p><p>To find out more about IPPF's work in Europe, go to: <a href='http://www.ippfen.org/en' class='read-more'>www.ippfen.org</a></p>",
         "type": "regional-office",
         "country": "Belgium"
       }
@@ -4766,7 +4766,7 @@
       },
       "properties": {
         "title": "Western Hemisphere",
-        "description": "New York",
+        "description": "<p>125 Maiden Lane,<br>9th Floor,<br>New York,<br>NY 10038</p><p>To find out more about IPPF's work in this region, go to: <a href='http://www.ippfwhr.org' class='read-more'>www.ippfwhr.org</a></p>",
         "type": "regional-office",
         "country": "United States"
       }

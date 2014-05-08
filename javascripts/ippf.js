@@ -28,7 +28,6 @@ var geoJsonData;
 var geoJsonTop;
 var introText = $("<div />").append($("#info").clone()).html();
 $('#map-ui').hide();
-var clickMarker;
 
 // Load the geojson data from files
 
@@ -162,9 +161,7 @@ function onZoomend()
 function resetMarkers() {
 
     mainMarkers.eachLayer(function(e) {
-          
           s = e.feature.properties.type;
-
           customIcon = new LeafIcon({iconUrl: 'images/'+s+'-off.png',iconRetinaUrl: 'images/'+s+'@2x-off.png'});
           e.setIcon(customIcon);
     });
