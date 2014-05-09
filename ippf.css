@@ -68,11 +68,17 @@ a.read-more {
   border-bottom: 2px solid #219375;
 }
 
-a.read-more:hover {
+a.read-more:hover, a.view-all:hover {
   color: #635C45;
   text-decoration: none;
   border-bottom: 2px solid #635C45;
 }
+
+a.view-all {
+  color: #219375;
+  text-decoration: none;
+}
+
 
 .ippf-div-icon {
   background: transparent;
