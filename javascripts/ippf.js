@@ -26,6 +26,8 @@ map.scrollWheelZoom.disable();
 
 var geoJsonData;
 var geoJsonTop;
+var s;
+var customIcon;
 var introText = $("<div />").append($("#info").clone()).html();
 $('#map-ui').hide();
 
@@ -89,10 +91,7 @@ var LeafIcon = L.Icon.extend({
                     className: 'ippf-custom-icon'
                 }
             });
-     
-     var s;
-     var customIcon;
-     
+
 // Customise the top marker layer
 topMarkers.on('layeradd', function(e) {
 
@@ -108,9 +107,41 @@ loadGeoJsonTop.complete(function() {
   topMarkers.setGeoJSON(geoJsonTop);
 });
 
+
+// set the lat/lon for marker layer
+loadGeoJson.complete(function() {
+  mainMarkers.setGeoJSON(geoJsonData);
+});
+
 // Add the layer to the map for the initial view
 map.addLayer(topMarkers);
 
+// Control which layers show at which zoom level
+map.on('zoomend', onZoomend);
+
+function onZoomend()
+{
+
+// As you zoom out, remove the marker layer and add the cluster layer 
+if(map.getZoom()<=2) {
+    map.addLayer(topMarkers);
+    map.removeLayer(mainMarkers);
+    document.getElementById('info').innerHTML = introText;
+    if (!$('html').hasClass('ie8')) {$('#map-ui').fadeOut('slow');}
+
+  }
+
+// As you zoom in, remove the cluster layer and add the marker layer
+if(map.getZoom()>2)
+  {
+    map.addLayer(mainMarkers);
+    map.removeLayer(topMarkers);
+    // Only show the filter if it is not ie8
+    if (!$('html').hasClass('ie8')) {$('#map-ui').fadeIn('slow');}
+  }
+}
+
+// Add the custom markers to the main layer
 
 // Customise the marker layer
 
@@ -125,46 +156,13 @@ mainMarkers.on('layeradd', function(e) {
 
 });
 
- 
-// set the lat/lon for marker layer
-loadGeoJson.complete(function() {
-  mainMarkers.setGeoJSON(geoJsonData);
-});
-
-
-// Control which layers show at which zoom level
-map.on('zoomend', onZoomend);
-
-function onZoomend()
-{
-  // As you zoom out, remove the marker layer and add the cluster layer 
-  if(map.getZoom()<=2)
-    {
-      map.addLayer(topMarkers);
-      map.removeLayer(mainMarkers);
-      resetMarkers();
-      document.getElementById('info').innerHTML = introText;
-      if (!$('html').hasClass('ie8')) {$('#map-ui').fadeOut('slow');}
-
-    }
-
-  // As you zoom in, remove the cluster layer and add the marker layer
-  if(map.getZoom()>2)
-    {
-      map.addLayer(mainMarkers);
-      map.removeLayer(topMarkers);
-      // Only show the filter if it is not ie8
-      if (!$('html').hasClass('ie8')) {$('#map-ui').fadeIn('slow');}
-    }
-}
-
 function resetMarkers() {
 
-    mainMarkers.eachLayer(function(e) {
-          s = e.feature.properties.type;
-          customIcon = new LeafIcon({iconUrl: 'images/'+s+'-off.png',iconRetinaUrl: 'images/'+s+'@2x-off.png'});
-          e.setIcon(customIcon);
-    });
+  mainMarkers.eachLayer(function(e) {
+        s = e.feature.properties.type;
+        customIcon = new LeafIcon({iconUrl: 'images/'+s+'-off.png',iconRetinaUrl: 'images/'+s+'@2x-off.png'});
+        e.setIcon(customIcon);
+  });
 
 }
 
@@ -182,8 +180,7 @@ mainMarkers.on('click',function (e) {
   
   e.layer.unbindPopup();
 
-  var details = e.layer.feature;
-                
+  var details = e.layer.feature;              
   var info = '<img class="header" src="images/' + details.properties.type +'.png" alt="'+ details.properties.type +'">' +
               '<h1>' + details.properties.country + '</h1>' +
              '<p class="bold">' + details.properties.title + '</p>' +
@@ -204,23 +201,21 @@ topMarkers.on('click',function (e) {
   map.setView(e.latlng, map.getZoom() + 3);
 
   e.layer.unbindPopup();
-
   var details = e.layer.feature;
-                
+  
+  // Regional info window              
   var info = '<h1>' + details.properties.title + '</h1>' +
             '<p class="bold">Regional Office: ' + details.properties.ro + '</p>' +
             '<p class="bold">Member Associations: ' + details.properties.ma + '</p>' +
              '<p class="bold">Number of wins: ' + details.properties.number + '</p>' +
              '<p>' + details.properties.description + '</p>';
 
- 
  // Load the text for that marker in the info panel
    document.getElementById('info').innerHTML = info;
-
 });
 
 
- // Show and hide the icons depending on the checkboxes
+// Show and hide the icons depending on the checkboxes
 
 var filters = document.getElementById('filters');
  var checkboxes = $('.filter');
@@ -245,11 +240,38 @@ var filters = document.getElementById('filters');
         
     }
 
-    // When the form is touched, re-filter markers
-        filters.onchange = change;
-    // Initially filter the markers
-        change();
+// When the form is touched, re-filter markers
+  filters.onchange = change;
+
+// Initially filter the markers
+  change();
 
 
 
- 
+var closeWindow = function(){
+    $( "#filters" ).animate({
+          bottom: -110
+          }, 125, function() {
+            $('.view-all').removeClass('closed');  
+          });
+}   
+
+var openWindow = function(){
+    $( "#filters" ).animate({
+          bottom: 5
+          }, 125, function() {
+            $('.view-all').addClass('closed');  
+            map.on('click', function () { closeWindow(); });
+          });
+      
+}    
+
+$( ".view-all" ).click(function() {
+  openWindow();
+});
+
+$(document).on('click', '.closed', function() { 
+    closeWindow(); 
+});
+
+
